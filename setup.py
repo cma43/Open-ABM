@@ -14,7 +14,7 @@ setup(
     description="A Python framework for agent-based modeling based on MESA",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.ncsu.edu/cmartman/Open-ABM",
+    url="https://github.com/cma43/Open-ABM",
     author="Conor M. Artman",
     author_email="cmartman@ncsu.edu",
     license="MIT",
