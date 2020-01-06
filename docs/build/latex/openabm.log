@@ -1,0 +1,1934 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.6.27)  9 DEC 2019 12:44
+entering extended mode
+**./openabm.tex
+(openabm.tex
+LaTeX2e <2018-04-01> patch level 5
+(sphinxmanual.cls
+Document Class: sphinxmanual 2018/12/23 v2.0 Document class (Sphinx manual)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)) ("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.s
+ty"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+2500 (decimal 9472)
+   defining Unicode char U+2502 (decimal 9474)
+   defining Unicode char U+2514 (decimal 9492)
+   defining Unicode char U+251C (decimal 9500)
+   defining Unicode char U+2572 (decimal 9586)
+ ("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cmap\cmap.sty"
+Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
+) ("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+ ("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)<<t1.cmap>>)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2018/10/16 3.26 The Babel package
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+"
+File: switch.def 2018/10/16 3.26 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
+ish.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2018/10/16 3.26 Babel common definitions
+\babel@savecnt=\count101
+\U@D=\dimen112
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
+ef")
+\bbl@dirlevel=\count102
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fncychap\fncychap.
+sty"
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip46
+\mylen=\skip47
+\myhi=\skip48
+\px=\skip49
+\py=\skip50
+\pyy=\skip51
+\pxx=\skip52
+\c@AlphaCnt=\count103
+\c@AlphaDecCnt=\count104
+) (sphinx.sty
+Package: sphinx 2019/09/02 v2.2.1 LaTeX package (Sphinx markup)
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
+sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titlesec.
+sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip62
+\aftertitleunit=\skip63
+\ttl@plus=\dimen115
+\ttl@minus=\dimen116
+\ttl@toksa=\toks22
+\titlewidth=\dimen117
+\titlewidthlast=\dimen118
+\titlewidthfirst=\dimen119
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tabulary\tabulary.
+sty"
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen120
+\ar@mcellbox=\box29
+\extrarowheight=\dimen121
+\NC@list=\toks23
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box30
+)
+\TY@count=\count105
+\TY@linewidth=\dimen122
+\tymin=\dimen123
+\tymax=\dimen124
+\TY@tablewidth=\dimen125
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.st
+y"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count106
+\LTcapwidth=\dimen126
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count107
+\LT@rows=\count108
+\c@LT@tables=\count109
+\c@LT@chunks=\count110
+\LT@p@ftn=\toks24
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\varwidth\varwidth.
+sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box35
+\sift@deathcycles=\count111
+\@vwid@loff=\dimen127
+\@vwid@roff=\dimen128
+) (sphinxmulticell.sty
+Package: sphinxmulticell 2017/02/23 v1.6 better span rows and columns of a tabl
+e (Sphinx team)
+\sphinx@TY@tablewidth=\dimen129
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+) ("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\framed\framed.st
+y"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip70
+\fb@frw=\dimen130
+\fb@frh=\dimen131
+\FrameRule=\dimen132
+\FrameSep=\dimen133
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb.
+sty"
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count112
+\FV@InFile=\read1
+\FV@TabBox=\box36
+\c@FancyVerbLine=\count113
+\FV@StepNumber=\count114
+\FV@OutFile=\write3
+) (footnotehyper-sphinx.sty
+Package: footnotehyper-sphinx 2017/10/27 v1.7 hyperref aware footnote.sty for s
+phinx (JFB)
+\FNH@notes=\box37
+\FNH@width=\dimen134
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count115
+\float@exts=\toks25
+\float@box=\box38
+\@float@everytoks=\toks26
+\@floatcapt=\box39
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.st
+y"
+\wrapoverhang=\dimen135
+\WF@size=\dimen136
+\c@WF@wrappedlines=\count116
+\WF@box=\box40
+\WF@everypar=\toks27
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\parskip\parskip.st
+y"
+Package: parskip 2001/04/09 non-zero parskip adjustments
+) ("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\upquote\upquote.st
+y"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\capt-of\capt-of.st
+y"
+Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\needspace\needspac
+e.sty"
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+) (sphinxhighlight.sty
+Package: sphinxhighlight 2016/05/29 stylesheet for highlighting with pygments
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+\sphinxverbatimsep=\dimen137
+\sphinxverbatimborder=\dimen138
+\sphinxshadowsep=\dimen139
+\sphinxshadowsize=\dimen140
+\sphinxshadowrule=\dimen141
+\spx@notice@border=\dimen142
+\spx@image@maxheight=\dimen143
+\spx@image@box=\dimen144
+\c@literalblock=\count117
+\sphinxcontinuationbox=\box41
+\sphinxvisiblespacebox=\box42
+\sphinxVerbatim@TitleBox=\box43
+\py@argswidth=\skip71
+\lineblockindentation=\skip72
+\DUlineblockindent=\skip73
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count118
+\Gm@cntv=\count119
+\c@Gm@tempcnt=\count120
+\Gm@bindingoffset=\dimen145
+\Gm@wd@mp=\dimen146
+\Gm@odd@mp=\dimen147
+\Gm@even@mp=\dimen148
+\Gm@layoutwidth=\dimen149
+\Gm@layoutheight=\dimen150
+\Gm@layouthoffset=\dimen151
+\Gm@layoutvoffset=\dimen152
+\Gm@dimlist=\toks28
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+cfg"))
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.
+sty"
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
+hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
+generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.s
+ty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen153
+\Hy@linkcounter=\count121
+\Hy@pagecounter=\count122
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.de
+f"
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count123
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.
+cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4409.
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\puenc.def
+"
+File: puenc.def 2018/09/30 v6.88a Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4409.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4409.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count124
+ ("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5141.
+\XeTeXLinkMargin=\dimen154
+\Fld@menulength=\count125
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing OFF on input line 6411.
+Package hyperref Info: Link coloring ON on input line 6414.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
+\Hy@abspage=\count126
+\c@Item=\count127
+\c@Hfootnote=\count128
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.d
+ef"
+File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+\Fld@listcount=\count129
+\c@bookmark@seq@number=\count130
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfile
+check.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip74
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hypcap.st
+y"
+Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
+) (sphinxmessages.sty
+Package: sphinxmessages 2019/01/04 v2.0 Localized LaTeX macros (Sphinx team)
+)
+\@indexfile=\write4
+\openout4 = `openabm.idx'.
+
+
+Writing index file openabm.idx
+(openabm.aux)
+\openout1 = `openabm.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 80.
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 80.
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count131
+\scratchdimen=\dimen157
+\scratchbox=\box44
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen158
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks30
+)
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=36.135pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring ON on input line 80.
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.s
+ty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitl
+estring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count137
+)
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
+ (openabm.out) (openabm.out)
+\@outlinefile=\write5
+\openout5 = `openabm.out'.
+
+Package hyperref Info: Option `pageanchor' set `false' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\spacefactor' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@m' on input line 83.
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 83.
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 83.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 83.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 83.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 83.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 83.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 83.
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 83.
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 83.
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 83.
+[1
+
+{C:/Users/conar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+
+
+]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 85.
+
+(openabm.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+)
+\tf@toc=\write6
+\openout6 = `openabm.toc'.
+
+ [1
+
+] [2
+
+]
+Chapter 1.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 101.
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 101.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 140.
+
+
+("C:\Users\conar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 144.
+[1
+
+] [2] [3] [4
+
+]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+[]\T1/ptm/m/it/10 height=20\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+\T1/ptm/m/it/10 width=20\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+\T1/ptm/m/it/10 init_people=2\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (4.86433pt too wide) in paragraph at lines 430--430
+\T1/ptm/m/it/10 rich_threshold=10\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+\T1/ptm/m/it/10 re-
+ []
+
+
+Overfull \hbox (2.21422pt too wide) in paragraph at lines 430--430
+\T1/ptm/m/it/10 serve_percent=50\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
+\T1/ptm/m/it/10 server=True\T1/ptm/m/n/10 ,
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
+[]\T1/ptm/m/it/10 unique_id\T1/ptm/m/n/10 , \T1/ptm/m/it/10 model\T1/ptm/m/n/10
+ , \T1/ptm/m/it/10 re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
+[]\T1/ptm/m/it/10 unique_id\T1/ptm/m/n/10 , \T1/ptm/m/it/10 pos\T1/ptm/m/n/10 ,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
+\T1/ptm/m/it/10 model\T1/ptm/m/n/10 , \T1/ptm/m/it/10 moore\T1/ptm/m/n/10 , \T1
+/ptm/m/it/10 bank\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (5.74474pt too wide) in paragraph at lines 590--590
+[]\T1/ptm/m/it/10 unique_id\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+\T1/ptm/m/it/10 pos\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+\T1/ptm/m/it/10 model\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (19.51465pt too wide) in paragraph at lines 590--590
+\T1/ptm/m/it/10 moore=True\T1/pcr/m/n/10 ) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
+\T1/ptm/m/it/10 ve-loc-ity\T1/ptm/m/n/10 , \T1/ptm/m/it/10 vi-sion\T1/ptm/m/n/1
+0 , \T1/ptm/m/it/10 sep-a-ra-tion\T1/ptm/m/n/10 ,
+ []
+
+[6] [7] [8
+
+]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
+[]\T1/ptm/m/it/10 population=100\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
+\T1/ptm/m/it/10 width=100\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
+\T1/ptm/m/it/10 height=100\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
+\T1/ptm/m/it/10 speed=1\T1/ptm/m/n/10 , \T1/ptm/m/it/10 vi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
+\T1/ptm/m/it/10 sion=10\T1/ptm/m/n/10 , \T1/ptm/m/it/10 sep-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
+\T1/ptm/m/it/10 a-ra-tion=2\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
+\T1/ptm/m/it/10 co-here=0.025\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
+\T1/ptm/m/it/10 sep-a-rate=0.25\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
+\T1/ptm/m/it/10 match=0.04\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--673
+\T1/ptm/m/it/10 server=True\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (2.2146pt too wide) in paragraph at lines 673--673
+\T1/ptm/m/it/10 num_steps=1000\T1/pcr/m/n/10 ) 
+ []
+
+
+Overfull \hbox (103.81442pt too wide) in paragraph at lines 706--706
+[]\T1/ptm/m/it/10 portrayal_method\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (47.01491pt too wide) in paragraph at lines 706--706
+\T1/ptm/m/it/10 can-
+ []
+
+
+Overfull \hbox (96.82457pt too wide) in paragraph at lines 706--706
+\T1/ptm/m/it/10 vas_height=500\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (47.01491pt too wide) in paragraph at lines 706--706
+\T1/ptm/m/it/10 can-
+ []
+
+
+Overfull \hbox (97.55455pt too wide) in paragraph at lines 706--706
+\T1/ptm/m/it/10 vas_width=500\T1/pcr/m/n/10 ) 
+ []
+
+[9] [10
+
+]
+Chapter 4.
+
+Overfull \hbox (114.16493pt too wide) in paragraph at lines 733--733
+[]\T1/ptm/m/it/10 N=100\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (124.72472pt too wide) in paragraph at lines 733--733
+\T1/ptm/m/it/10 width=10\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (127.49474pt too wide) in paragraph at lines 733--733
+\T1/ptm/m/it/10 height=10\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (154.7146pt too wide) in paragraph at lines 733--733
+\T1/ptm/m/it/10 num_steps=1000\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (139.32436pt too wide) in paragraph at lines 733--733
+\T1/ptm/m/it/10 server=True\T1/pcr/m/n/10 ) 
+ []
+
+
+Overfull \hbox (65.74474pt too wide) in paragraph at lines 762--762
+[]\T1/ptm/m/it/10 unique_id\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (53.6947pt too wide) in paragraph at lines 762--762
+\T1/ptm/m/it/10 model\T1/pcr/m/n/10 ) 
+ []
+
+[11] [12
+
+]
+Chapter 5.
+
+Overfull \hbox (283.62473pt too wide) in paragraph at lines 783--783
+[]\T1/ptm/m/it/10 num_agents=7\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (286.04482pt too wide) in paragraph at lines 783--783
+\T1/ptm/m/it/10 num_nodes=10\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (292.7146pt too wide) in paragraph at lines 783--783
+\T1/ptm/m/it/10 num_steps=1000\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (277.32436pt too wide) in paragraph at lines 783--783
+\T1/ptm/m/it/10 server=True\T1/pcr/m/n/10 ) 
+ []
+
+
+Overfull \hbox (161.74474pt too wide) in paragraph at lines 808--808
+[]\T1/ptm/m/it/10 unique_id\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (149.6947pt too wide) in paragraph at lines 808--808
+\T1/ptm/m/it/10 model\T1/pcr/m/n/10 ) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 824--824
+[]\T1/ptm/m/it/10 pos\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 824--824
+\T1/ptm/m/it/10 model\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (12.2243pt too wide) in paragraph at lines 824--824
+\T1/ptm/m/it/10 init_state=0\T1/pcr/m/n/10 ) 
+ []
+
+[13] [14
+
+]
+Chapter 6.
+
+Overfull \hbox (85.49474pt too wide) in paragraph at lines 857--857
+[]\T1/ptm/m/it/10 height=50\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (82.72472pt too wide) in paragraph at lines 857--857
+\T1/ptm/m/it/10 width=50\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (97.32436pt too wide) in paragraph at lines 857--857
+\T1/ptm/m/it/10 server=True\T1/pcr/m/n/10 ) 
+ []
+
+
+Overfull \hbox (13.69456pt too wide) in paragraph at lines 883--883
+[]\T1/ptm/m/it/10 cell\T1/pcr/m/n/10 ) 
+ []
+
+
+Overfull \hbox (47.74474pt too wide) in paragraph at lines 894--894
+[]\T1/ptm/m/it/10 unique_id\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (32.18481pt too wide) in paragraph at lines 894--894
+\T1/ptm/m/it/10 model\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (21.6349pt too wide) in paragraph at lines 894--894
+\T1/ptm/m/it/10 pos\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (27.09485pt too wide) in paragraph at lines 894--894
+\T1/ptm/m/it/10 hard-
+ []
+
+
+Overfull \hbox (24.4148pt too wide) in paragraph at lines 894--894
+\T1/ptm/m/it/10 ship\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (81.00417pt too wide) in paragraph at lines 894--894
+\T1/ptm/m/it/10 regime_legitimacy\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (62.0842pt too wide) in paragraph at lines 894--894
+\T1/ptm/m/it/10 risk_aversion\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (33.20457pt too wide) in paragraph at lines 894--894
+\T1/ptm/m/it/10 thresh-
+ []
+
+
+Overfull \hbox (20.5249pt too wide) in paragraph at lines 894--894
+\T1/ptm/m/it/10 old\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (15.7948pt too wide) in paragraph at lines 894--894
+\T1/ptm/m/it/10 vi-
+ []
+
+
+Overfull \hbox (27.9148pt too wide) in paragraph at lines 894--894
+\T1/ptm/m/it/10 sion\T1/pcr/m/n/10 ) 
+ []
+
+[15]
+Overfull \hbox (23.74474pt too wide) in paragraph at lines 1015--1015
+[]\T1/ptm/m/it/10 unique_id\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (8.18481pt too wide) in paragraph at lines 1015--1015
+\T1/ptm/m/it/10 model\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1015
+\T1/ptm/m/it/10 pos\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1015--1015
+\T1/ptm/m/it/10 vi-
+ []
+
+
+Overfull \hbox (3.9148pt too wide) in paragraph at lines 1015--1015
+\T1/ptm/m/it/10 sion\T1/pcr/m/n/10 ) 
+ []
+
+[16]
+Chapter 7.
+
+Overfull \hbox (127.49474pt too wide) in paragraph at lines 1071--1071
+[]\T1/ptm/m/it/10 height=40\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (124.72472pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 width=40\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (96.57469pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 cit-
+ []
+
+
+Overfull \hbox (89.35486pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 i-
+ []
+
+
+Overfull \hbox (151.6544pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 zen_density=0.7\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (162.76451pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 cop_density=0.074\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (96.57469pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 cit-
+ []
+
+
+Overfull \hbox (89.35486pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 i-
+ []
+
+
+Overfull \hbox (139.71446pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 zen_vision=7\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (140.82457pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 cop_vision=7\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (93.7948pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 le-
+ []
+
+
+Overfull \hbox (97.13475pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 git-
+ []
+
+
+Overfull \hbox (89.35486pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 i-
+ []
+
+
+Overfull \hbox (126.09486pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 macy=0.8\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (170.8243pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 max_jail_term=1000\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (96.01491pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 ac-
+ []
+
+
+Overfull \hbox (161.84418pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 tive_threshold=0.1\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (95.26491pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 ar-
+ []
+
+
+Overfull \hbox (181.95416pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 rest_prob_constant=2.3\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (107.57483pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 move-
+ []
+
+
+Overfull \hbox (130.27466pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 ment=True\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (151.83444pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 max_iters=1000\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (135.82436pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 server=True\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (158.2146pt too wide) in paragraph at lines 1071--1071
+\T1/ptm/m/it/10 num_steps=1000\T1/pcr/m/n/10 ) 
+ []
+
+[17
+
+] [18]
+Chapter 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1261
+[]\T1/ptm/m/it/10 height=100\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1261
+\T1/ptm/m/it/10 width=100\T1/ptm/m/n/10 , \T1/ptm/m/it/10 den-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1261
+\T1/ptm/m/it/10 sity=0.65\T1/ptm/m/n/10 , \T1/ptm/m/it/10 server=True\T1/ptm/m/
+n/10 ,
+ []
+
+[19
+
+] [20
+
+]
+Chapter 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1328
+[]\T1/ptm/m/it/10 height=50\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1328
+\T1/ptm/m/it/10 width=50\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1328
+\T1/ptm/m/it/10 server=True\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (2.2146pt too wide) in paragraph at lines 1328--1328
+\T1/ptm/m/it/10 num_steps=1000\T1/pcr/m/n/10 ) 
+ []
+
+[21] [22
+
+]
+Chapter 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
+[]\T1/ptm/m/it/10 height=50\T1/ptm/m/n/10 , \T1/ptm/m/it/10 width=50\T1/ptm/m/n
+/10 , \T1/ptm/m/it/10 sched-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
+\T1/ptm/m/it/10 ule_type='Random'\T1/ptm/m/n/10 , \T1/ptm/m/it/10 pay-offs=None
+\T1/ptm/m/n/10 ,
+ []
+
+[23] [24
+
+]
+Chapter 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1426--1426
+[]\T1/ptm/m/it/10 height=20\T1/ptm/m/n/10 , \T1/ptm/m/it/10 width=20\T1/ptm/m/n
+/10 , \T1/ptm/m/it/10 den-sity=0.8\T1/ptm/m/n/10 , \T1/ptm/m/it/10 mi-nor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1426--1426
+\T1/ptm/m/it/10 ity_pc=0.2\T1/ptm/m/n/10 , \T1/ptm/m/it/10 ho-mophily=3\T1/ptm/
+m/n/10 , \T1/ptm/m/it/10 num_steps=1000\T1/ptm/m/n/10 ,
+ []
+
+[25] [26
+
+]
+Chapter 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1508--1508
+[]\T1/ptm/m/it/10 height=50\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1508--1508
+\T1/ptm/m/it/10 width=50\T1/ptm/m/n/10 , \T1/ptm/m/it/10 ini-
+ []
+
+
+Overfull \hbox (13.17436pt too wide) in paragraph at lines 1508--1508
+\T1/ptm/m/it/10 tial_population=100\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1533--1533
+[]\T1/ptm/m/it/10 pos\T1/ptm/m/n/10 , \T1/ptm/m/it/10 model\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1533--1533
+\T1/ptm/m/it/10 metabolism=0\T1/ptm/m/n/10 , \T1/ptm/m/it/10 vi-
+ []
+
+
+Overfull \hbox (41.6947pt too wide) in paragraph at lines 1574--1574
+[]\T1/ptm/m/it/10 model\T1/pcr/m/n/10 ) 
+ []
+
+[27] [28]
+Chapter 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1657--1657
+[]\T1/ptm/m/it/10 unique_id\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1657--1657
+\T1/ptm/m/it/10 tial_state\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (38.76427pt too wide) in paragraph at lines 1657--1657
+\T1/ptm/m/it/10 virus_spread_chance\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (45.21408pt too wide) in paragraph at lines 1657--1657
+\T1/ptm/m/it/10 virus_check_frequency\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1657--1657
+\T1/ptm/m/it/10 re-cov-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1657--1657
+\T1/ptm/m/it/10 ery_chance\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (53.3741pt too wide) in paragraph at lines 1657--1657
+\T1/ptm/m/it/10 gain_resistance_chance\T1/pcr/m/n/10 ) 
+ []
+
+
+Overfull \hbox (40.04482pt too wide) in paragraph at lines 1671--1671
+[]\T1/ptm/m/it/10 num_nodes=10\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (59.81468pt too wide) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 avg_node_degree=3\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 ini-
+ []
+
+
+Overfull \hbox (63.01396pt too wide) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 tial_outbreak_size=1\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (82.01427pt too wide) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 virus_spread_chance=0.4\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (88.46408pt too wide) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 virus_check_frequency=0.4\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 cov-
+ []
+
+
+Overfull \hbox (42.93471pt too wide) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 ery_chance=0.3\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (93.1241pt too wide) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 gain_resistance_chance=0.5\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (46.7146pt too wide) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 num_steps=1000\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (31.32436pt too wide) in paragraph at lines 1671--1671
+\T1/ptm/m/it/10 server=True\T1/pcr/m/n/10 ) 
+ []
+
+[29
+
+] [30
+
+]
+Chapter 14.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1729
+[]\T1/ptm/m/it/10 height=20\T1/ptm/m/n/10 , \T1/ptm/m/it/10 width=20\T1/ptm/m/n
+/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1729
+\T1/ptm/m/it/10 ini-tial_sheep=100\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1729
+\T1/ptm/m/it/10 ini-tial_wolves=50\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1729
+\T1/ptm/m/it/10 sheep_reproduce=0.04\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1729
+\T1/ptm/m/it/10 wolf_reproduce=0.05\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1729
+\T1/ptm/m/it/10 wolf_gain_from_food=20\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1729
+\T1/ptm/m/it/10 grass=False\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1729
+\T1/ptm/m/it/10 grass_regrowth_time=30\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1729
+\T1/ptm/m/it/10 sheep_gain_from_food=4\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1729--1729
+\T1/ptm/m/it/10 num_steps=1000\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1754--1754
+[]\T1/ptm/m/it/10 unique_id\T1/ptm/m/n/10 , \T1/ptm/m/it/10 pos\T1/ptm/m/n/10 ,
+ \T1/ptm/m/it/10 model\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1806--1806
+[]\T1/ptm/m/it/10 unique_id\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1806--1806
+\T1/ptm/m/it/10 pos\T1/ptm/m/n/10 , \T1/ptm/m/it/10 model\T1/ptm/m/n/10 ,
+ []
+
+[31]
+Overfull \hbox (5.6947pt too wide) in paragraph at lines 1825--1825
+[]\T1/ptm/m/it/10 model\T1/pcr/m/n/10 ) 
+ []
+
+[32]
+Chapter 15.
+[33
+
+] [34
+
+]
+Overfull \hbox (30.6225pt too wide) in paragraph at lines 1912--1913
+[]\T1/pcr/m/n/10 examples.bank_reserves.bank_reserves.agents\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.6225pt too wide) in paragraph at lines 1913--1914
+[]\T1/pcr/m/n/10 examples.bank_reserves.bank_reserves.model\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (60.6225pt too wide) in paragraph at lines 1914--1915
+[]\T1/pcr/m/n/10 examples.bank_reserves.bank_reserves.random_walk\T1/ptm/m/n/10
+ ,
+ []
+
+
+Overfull \hbox (30.6225pt too wide) in paragraph at lines 1915--1916
+[]\T1/pcr/m/n/10 examples.bank_reserves.bank_reserves.server\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (18.6225pt too wide) in paragraph at lines 1916--1917
+[]\T1/pcr/m/n/10 examples.boid_flockers.boid_flockers.boid\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.6225pt too wide) in paragraph at lines 1917--1918
+[]\T1/pcr/m/n/10 examples.boid_flockers.boid_flockers.model\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (30.6225pt too wide) in paragraph at lines 1918--1919
+[]\T1/pcr/m/n/10 examples.boid_flockers.boid_flockers.server\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (126.6225pt too wide) in paragraph at lines 1919--1920
+[]\T1/pcr/m/n/10 examples.boid_flockers.boid_flockers.SimpleContinuousModule\T1
+/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (132.6225pt too wide) in paragraph at lines 1920--1921
+[]\T1/pcr/m/n/10 examples.boltzmann_wealth_model.boltzmann_wealth_model.model\T
+1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (138.6225pt too wide) in paragraph at lines 1921--1922
+[]\T1/pcr/m/n/10 examples.boltzmann_wealth_model.boltzmann_wealth_model.server\
+T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (228.6225pt too wide) in paragraph at lines 1922--1923
+[]\T1/pcr/m/n/10 examples.boltzmann_wealth_model_network.boltzmann_wealth_model
+_network.model\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (234.6225pt too wide) in paragraph at lines 1923--1924
+[]\T1/pcr/m/n/10 examples.boltzmann_wealth_model_network.boltzmann_wealth_model
+_network.server\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (102.6225pt too wide) in paragraph at lines 1924--1925
+[]\T1/pcr/m/n/10 examples.conways_game_of_life.conways_game_of_life.cell\T1/ptm
+/m/n/10 ,
+ []
+
+
+Overfull \hbox (108.6225pt too wide) in paragraph at lines 1925--1926
+[]\T1/pcr/m/n/10 examples.conways_game_of_life.conways_game_of_life.model\T1/pt
+m/m/n/10 ,
+ []
+
+
+Overfull \hbox (132.6225pt too wide) in paragraph at lines 1926--1927
+[]\T1/pcr/m/n/10 examples.conways_game_of_life.conways_game_of_life.portrayal\T
+1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (114.6225pt too wide) in paragraph at lines 1927--1928
+[]\T1/pcr/m/n/10 examples.conways_game_of_life.conways_game_of_life.server\T1/p
+tm/m/n/10 ,
+ []
+
+
+Overfull \hbox (132.6225pt too wide) in paragraph at lines 1928--1929
+[]\T1/pcr/m/n/10 examples.epstein_civil_violence.epstein_civil_violence.agent\T
+1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (132.6225pt too wide) in paragraph at lines 1929--1930
+[]\T1/pcr/m/n/10 examples.epstein_civil_violence.epstein_civil_violence.model\T
+1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (156.6225pt too wide) in paragraph at lines 1930--1931
+[]\T1/pcr/m/n/10 examples.epstein_civil_violence.epstein_civil_violence.portray
+al\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (138.6225pt too wide) in paragraph at lines 1931--1932
+[]\T1/pcr/m/n/10 examples.epstein_civil_violence.epstein_civil_violence.server\
+T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (0.6225pt too wide) in paragraph at lines 1932--1933
+[]\T1/pcr/m/n/10 examples.forest_fire.forest_fire.agent\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (0.6225pt too wide) in paragraph at lines 1933--1934
+[]\T1/pcr/m/n/10 examples.forest_fire.forest_fire.model\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (6.6225pt too wide) in paragraph at lines 1934--1935
+[]\T1/pcr/m/n/10 examples.forest_fire.forest_fire.server\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (18.6225pt too wide) in paragraph at lines 1935--1936
+[]\T1/pcr/m/n/10 examples.hex_snowflake.hex_snowflake.cell\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.6225pt too wide) in paragraph at lines 1936--1937
+[]\T1/pcr/m/n/10 examples.hex_snowflake.hex_snowflake.model\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (48.6225pt too wide) in paragraph at lines 1937--1938
+[]\T1/pcr/m/n/10 examples.hex_snowflake.hex_snowflake.portrayal\T1/ptm/m/n/10 ,
+
+ []
+
+
+Overfull \hbox (30.6225pt too wide) in paragraph at lines 1938--1939
+[]\T1/pcr/m/n/10 examples.hex_snowflake.hex_snowflake.server\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (30.6225pt too wide) in paragraph at lines 1945--1946
+[]\T1/pcr/m/n/10 examples.sugarscape_cg.sugarscape_cg.agents\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.6225pt too wide) in paragraph at lines 1946--1947
+[]\T1/pcr/m/n/10 examples.sugarscape_cg.sugarscape_cg.model\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (42.6225pt too wide) in paragraph at lines 1947--1948
+[]\T1/pcr/m/n/10 examples.sugarscape_cg.sugarscape_cg.schedule\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (60.6225pt too wide) in paragraph at lines 1948--1949
+[]\T1/pcr/m/n/10 examples.virus_on_network.virus_on_network.model\T1/ptm/m/n/10
+ ,
+ []
+
+
+Overfull \hbox (66.6225pt too wide) in paragraph at lines 1949--1950
+[]\T1/pcr/m/n/10 examples.virus_on_network.virus_on_network.server\T1/ptm/m/n/1
+0 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1950--1951
+[]\T1/pcr/m/n/10 examples.wolf_sheep.wolf_sheep.agents\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1951--1952
+[]\T1/pcr/m/n/10 examples.wolf_sheep.wolf_sheep.model\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (24.6225pt too wide) in paragraph at lines 1952--1953
+[]\T1/pcr/m/n/10 examples.wolf_sheep.wolf_sheep.random_walk\T1/ptm/m/n/10 ,
+ []
+
+
+Overfull \hbox (6.6225pt too wide) in paragraph at lines 1953--1954
+[]\T1/pcr/m/n/10 examples.wolf_sheep.wolf_sheep.schedule\T1/ptm/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1954--1955
+[]\T1/pcr/m/n/10 examples.wolf_sheep.wolf_sheep.server\T1/ptm/m/n/10 ,
+ []
+
+[35
+
+]
+No file openabm.ind.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1962.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1962.
+(openabm.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1962.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1962.
+
+Package rerunfilecheck Info: File `openabm.out' has not changed.
+(rerunfilecheck)             Checksum: 3D9A0EFEFF2938C70D9BAF8D75B3F51F;2631.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1962.
+ ) 
+Here is how much of TeX's memory you used:
+ 13804 strings out of 492973
+ 208183 string characters out of 3126692
+ 296179 words of memory out of 3000000
+ 17120 multiletter control sequences out of 15000+200000
+ 44331 words of font info for 65 fonts, out of 3000000 for 9000
+ 1142 hyphenation exceptions out of 8191
+ 37i,11n,45p,976b,583s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/conar/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}<C:/Users/conar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrb
+8a.pfb><C:/Users/conar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courie
+r/ucrr8a.pfb><C:/Users/conar/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
+courier/ucrro8a.pfb><C:/Users/conar/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/urw/helvetic/uhvb8a.pfb><C:/Users/conar/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/conar/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/conar/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/conar/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/conar/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on openabm.pdf (39 pages, 217200 bytes).
+PDF statistics:
+ 614 PDF objects out of 1000 (max. 8388607)
+ 263 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+

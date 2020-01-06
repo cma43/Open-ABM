@@ -1,0 +1,1527 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Welcome to Open ABM’s documentation! &#8212; Open ABM 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-open-abm-s-documentation">
+<h1>Welcome to Open ABM’s documentation!<a class="headerlink" href="#welcome-to-open-abm-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<span class="target" id="module-oabm_tools"></span><div class="section" id="open-abm-tools-and-utilities">
+<h2>Open ABM Tools and Utilities<a class="headerlink" href="#open-abm-tools-and-utilities" title="Permalink to this headline">¶</a></h2>
+<p>Open ABM runs on MESA and wraps basic MESA implementations with easy-to-use helper functions.
+All current models were built by the MESA team. Users are encouraged to explroe MESA
+and its tools after getting started with Open ABM here: <a class="reference external" href="https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html">https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html</a></p>
+<p>For an interactive introduction, please see our Jupyter notebook walkthrough.</p>
+<dl class="function">
+<dt id="oabm_tools.check_models">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">check_models</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.check_models" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the current list of available models one can plug-and-play with Open ABM</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Returns a list of strings of valid names one can use with Open ABM’s make() function for building models.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>String</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.export_agent_data">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">export_agent_data</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.export_agent_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Helper function for export_data, but accessible to user if preferred.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>model</strong> – An Open ABM supported model / environment instance</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Agent-level data</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Pandas Dataframe</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.export_data">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">export_data</code><span class="sig-paren">(</span><em class="sig-param">model</em>, <em class="sig-param">agent_level</em>, <em class="sig-param">model_level</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.export_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exports data associated with the datacollector attribute of a model instance.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> – An instance of an Open ABM-supported model / environment</p></li>
+<li><p><strong>agent_level</strong> (<em>Boolean</em>) – Tells export_data whether to return agent-level data</p></li>
+<li><p><strong>model_level</strong> (<em>Boolean</em>) – Tells export_data whether to return model-level data</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AssertionError</strong> – Model and agent must be Booleans, and must both be specified.</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Dataset of model- and/or agent-level data depending on user input</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>Pandas Dataframe</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.export_model_data">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">export_model_data</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.export_model_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Helper function for export_data, but accessible to user if preferred.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>model</strong> – An Open ABM supported model / environment instance</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Model-level data</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Pandas Dataframe</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.get_agent_parameters">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">get_agent_parameters</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.get_agent_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns Python dictionary of all agents’ model parameters.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>model</strong> – An Open ABM supported model / environment instance.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Nested dictionary of each agent’s dictionary of parameters/attributes.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.get_agent_step">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">get_agent_step</code><span class="sig-paren">(</span><em class="sig-param">agent_list</em>, <em class="sig-param">verbose=True</em>, <em class="sig-param">distinct=True</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.get_agent_step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns step functions of agents in a list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>agent_list</strong> – A list of agents whose step functions we want to see</p></li>
+<li><p><strong>verbose</strong> – Boolean specifying if the function should print each agent’s step function</p></li>
+<li><p><strong>distinct</strong> – Boolean. If true, then when verbose is True will print each agent’s step function. If false with verbose set to true, will only print distinct step function per type of agent.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>List of agent step functions in the form of individual Python dictionaries.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.get_model_parameters">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">get_model_parameters</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.get_model_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the full dictionary of all model-level parameters / attributes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>model</strong> – An Open ABM supported model / environment instance</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Python dictionary of model-level parameters</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.get_model_step">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">get_model_step</code><span class="sig-paren">(</span><em class="sig-param">model</em>, <em class="sig-param">verbose=True</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.get_model_step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns step functions of model instance.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> – Open ABM supported model instance.</p></li>
+<li><p><strong>verbose</strong> – Boolean specifying if the function should print step function</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>String of source code for the model’s step function.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.make">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">make</code><span class="sig-paren">(</span><em class="sig-param">model_name</em>, <em class="sig-param">server=True</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.make" title="Permalink to this definition">¶</a></dt>
+<dd><p>Makes a model instantiation of the requestion ABM, where the ABM name is a string taken from the list generated by check_models()</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model_name</strong> (<em>String</em>) – String name of the model, as taken from check_models() output</p></li>
+<li><p><strong>server</strong> (<em>Boolean</em>) – Boolean-valued parameter. If true, a pop-out interactive window should appear in your browser for the default visualizations of the requested model.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AssertionError</strong> – model_name only accepts strings.</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Returns an instance of the requested ABM</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.nested_dict">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">nested_dict</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.nested_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Helper function for creating nested dictionaries.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.set_agent_parameters">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">set_agent_parameters</code><span class="sig-paren">(</span><em class="sig-param">model</em>, <em class="sig-param">new_params</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.set_agent_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Takes a model object and uses the dictionary of new parameters to update agents’ parameters.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>model</strong> – An Open ABM supported model /environment instance.</p>
+</dd>
+<dt class="field-even">New_params</dt>
+<dd class="field-even"><p>A python dictionary with unique IDs of agents as keys and dictionaries of new parameter values as values.</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Returns an updated model object containing updated agent parameters.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.set_agent_step">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">set_agent_step</code><span class="sig-paren">(</span><em class="sig-param">agent_dict</em>, <em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.set_agent_step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set step functions based on a dict of unique IDs with associated new step function.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>agent_dict</strong> – Python dictionary of unique ID / step function keys/values</p></li>
+<li><p><strong>model</strong> – Open ABM supported model instance</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Updated model instance</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.set_data_collection">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">set_data_collection</code><span class="sig-paren">(</span><em class="sig-param">model</em>, <em class="sig-param">agent_level</em>, <em class="sig-param">model_level</em>, <em class="sig-param">agent_data_to_collect=None</em>, <em class="sig-param">model_data_to_collect=None</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.set_data_collection" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the data to be collected by the model for agent and model leveld data.</p>
+<blockquote>
+<div><p>data_to_collect can be a dict of string_names the user chooses and then attributes the user wants, or
+it can be string_names the user chooses and functions of the model that the user wants</p>
+<p>Note that if only specifying data collection for agent or model level, then data_to_collect automatically fills that slot;
+otherwise, user must specify separate dictionary</p>
+<p>Also note that this assumes that the given model has a datacollector attribute already!</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> – Open ABM supported model instance</p></li>
+<li><p><strong>agent_level</strong> – Boolean specifying whether to collect agent level data</p></li>
+<li><p><strong>model_level</strong> – Boolean specifying whether to collect model level data</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Updated instance of the model set to collect the requested data.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.set_model_parameters">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">set_model_parameters</code><span class="sig-paren">(</span><em class="sig-param">model</em>, <em class="sig-param">new_params</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.set_model_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adjusts the dictionary of model-level parameters / attributes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> – An Open ABM supported model / environment instance</p></li>
+<li><p><strong>new_params</strong> – A python dictionary of parameters / attributes replacing old parameter values.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A model instance</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="oabm_tools.set_model_step">
+<code class="sig-prename descclassname">oabm_tools.</code><code class="sig-name descname">set_model_step</code><span class="sig-paren">(</span><em class="sig-param">model</em>, <em class="sig-param">new_step_func</em><span class="sig-paren">)</span><a class="headerlink" href="#oabm_tools.set_model_step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets step function for the model, and returns the updated model instance.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>model</strong> – An Open ABM supported model instance.</p></li>
+<li><p><strong>new_step_func</strong> – A method acting as the new step function for the model.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>An updated model instance.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.bank_reserves.bank_reserves.model"></span><div class="section" id="bank-reserves-model">
+<h2>Bank Reserves Model<a class="headerlink" href="#bank-reserves-model" title="Permalink to this headline">¶</a></h2>
+<p>The following code was adapted from the Bank Reserves model included in Netlogo
+Model information can be found at: <a class="reference external" href="http://ccl.northwestern.edu/netlogo/models/BankReserves">http://ccl.northwestern.edu/netlogo/models/BankReserves</a>
+Accessed on: November 2, 2017
+Author of NetLogo code:
+Wilensky, U. (1998). NetLogo Bank Reserves model.
+<a class="reference external" href="http://ccl.northwestern.edu/netlogo/models/BankReserves">http://ccl.northwestern.edu/netlogo/models/BankReserves</a>.
+Center for Connected Learning and Computer-Based Modeling,
+Northwestern University, Evanston, IL.</p>
+<dl class="class">
+<dt id="examples.bank_reserves.bank_reserves.model.BankReserves">
+<em class="property">class </em><code class="sig-prename descclassname">examples.bank_reserves.bank_reserves.model.</code><code class="sig-name descname">BankReserves</code><span class="sig-paren">(</span><em class="sig-param">height=20</em>, <em class="sig-param">width=20</em>, <em class="sig-param">init_people=2</em>, <em class="sig-param">rich_threshold=10</em>, <em class="sig-param">reserve_percent=50</em>, <em class="sig-param">server=True</em>, <em class="sig-param">num_steps=100</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.model.BankReserves" title="Permalink to this definition">¶</a></dt>
+<dd><p>This model is a Mesa implementation of the Bank Reserves model from NetLogo.
+It is a highly abstracted, simplified model of an economy, with only one
+type of agent and a single bank representing all banks in an economy. People
+(represented by circles) move randomly within the grid. If two or more people
+are on the same grid location, there is a 50% chance that they will trade with
+each other. If they trade, there is an equal chance of giving the other agent
+$5 or $2. A positive trade balance will be deposited in the bank as savings.
+If trading results in a negative balance, the agent will try to withdraw from
+its savings to cover the balance. If it does not have enough savings to cover
+the negative balance, it will take out a loan from the bank to cover the
+difference. The bank is required to keep a certain percentage of deposits as
+reserves and the bank’s ability to loan at any given time is a function of
+the amount of deposits, its reserves, and its current total outstanding loan
+amount.</p>
+<dl class="attribute">
+<dt id="examples.bank_reserves.bank_reserves.model.BankReserves.grid_w">
+<code class="sig-name descname">grid_w</code><em class="property"> = 20</em><a class="headerlink" href="#examples.bank_reserves.bank_reserves.model.BankReserves.grid_w" title="Permalink to this definition">¶</a></dt>
+<dd><p>init parameters “init_people”, “rich_threshold”, and “reserve_percent”
+are all UserSettableParameters</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.bank_reserves.bank_reserves.model.BankReserves.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.model.BankReserves.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.bank_reserves.bank_reserves.model.BankReserves.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.model.BankReserves.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step. Fill in here.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="examples.bank_reserves.bank_reserves.model.get_num_mid_agents">
+<code class="sig-prename descclassname">examples.bank_reserves.bank_reserves.model.</code><code class="sig-name descname">get_num_mid_agents</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.model.get_num_mid_agents" title="Permalink to this definition">¶</a></dt>
+<dd><p>return number of middle class agents</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="examples.bank_reserves.bank_reserves.model.get_num_poor_agents">
+<code class="sig-prename descclassname">examples.bank_reserves.bank_reserves.model.</code><code class="sig-name descname">get_num_poor_agents</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.model.get_num_poor_agents" title="Permalink to this definition">¶</a></dt>
+<dd><p>return number of poor agents</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="examples.bank_reserves.bank_reserves.model.get_num_rich_agents">
+<code class="sig-prename descclassname">examples.bank_reserves.bank_reserves.model.</code><code class="sig-name descname">get_num_rich_agents</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.model.get_num_rich_agents" title="Permalink to this definition">¶</a></dt>
+<dd><p>return number of rich agents</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="examples.bank_reserves.bank_reserves.model.get_total_savings">
+<code class="sig-prename descclassname">examples.bank_reserves.bank_reserves.model.</code><code class="sig-name descname">get_total_savings</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.model.get_total_savings" title="Permalink to this definition">¶</a></dt>
+<dd><p>sum of all agents’ savings</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="examples.bank_reserves.bank_reserves.model.get_total_wallets">
+<code class="sig-prename descclassname">examples.bank_reserves.bank_reserves.model.</code><code class="sig-name descname">get_total_wallets</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.model.get_total_wallets" title="Permalink to this definition">¶</a></dt>
+<dd><p>sum of amounts of all agents’ wallets</p>
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.bank_reserves.bank_reserves.agents"></span><p>The following code was adapted from the Bank Reserves model included in Netlogo
+Model information can be found at: <a class="reference external" href="http://ccl.northwestern.edu/netlogo/models/BankReserves">http://ccl.northwestern.edu/netlogo/models/BankReserves</a>
+Accessed on: November 2, 2017
+Author of NetLogo code:
+Wilensky, U. (1998). NetLogo Bank Reserves model.
+<a class="reference external" href="http://ccl.northwestern.edu/netlogo/models/BankReserves">http://ccl.northwestern.edu/netlogo/models/BankReserves</a>.
+Center for Connected Learning and Computer-Based Modeling,
+Northwestern University, Evanston, IL.</p>
+<dl class="class">
+<dt id="examples.bank_reserves.bank_reserves.agents.Bank">
+<em class="property">class </em><code class="sig-prename descclassname">examples.bank_reserves.bank_reserves.agents.</code><code class="sig-name descname">Bank</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">model</em>, <em class="sig-param">reserve_percent=50</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.agents.Bank" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="attribute">
+<dt id="examples.bank_reserves.bank_reserves.agents.Bank.bank_loans">
+<code class="sig-name descname">bank_loans</code><em class="property"> = None</em><a class="headerlink" href="#examples.bank_reserves.bank_reserves.agents.Bank.bank_loans" title="Permalink to this definition">¶</a></dt>
+<dd><p>percent of deposits the bank must keep in reserves - this is a
+UserSettableParameter in server.py</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="examples.bank_reserves.bank_reserves.agents.Person">
+<em class="property">class </em><code class="sig-prename descclassname">examples.bank_reserves.bank_reserves.agents.</code><code class="sig-name descname">Person</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">moore</em>, <em class="sig-param">bank</em>, <em class="sig-param">rich_threshold</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.agents.Person" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="examples.bank_reserves.bank_reserves.agents.Person.do_business">
+<code class="sig-name descname">do_business</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.agents.Person.do_business" title="Permalink to this definition">¶</a></dt>
+<dd><p>check if person has any savings, any money in wallet, or if the
+bank can loan them any money</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.bank_reserves.bank_reserves.agents.Person.loans">
+<code class="sig-name descname">loans</code><em class="property"> = None</em><a class="headerlink" href="#examples.bank_reserves.bank_reserves.agents.Person.loans" title="Permalink to this definition">¶</a></dt>
+<dd><p>start everyone off with a random amount in their wallet from 1 to a
+user settable rich threshold amount</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.bank_reserves.bank_reserves.agents.Person.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.agents.Person.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step of the agent.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.bank_reserves.bank_reserves.agents.Person.take_out_loan">
+<code class="sig-name descname">take_out_loan</code><span class="sig-paren">(</span><em class="sig-param">amount</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.agents.Person.take_out_loan" title="Permalink to this definition">¶</a></dt>
+<dd><p>borrow from the bank to put money in my wallet, and increase my
+outstanding loans</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.bank_reserves.bank_reserves.random_walk"></span><p>Citation:
+The following code is a copy from random_walk.py at
+<a class="reference external" href="https://github.com/projectmesa/mesa/blob/master/examples/wolf_sheep/wolf_sheep/random_walk.py">https://github.com/projectmesa/mesa/blob/master/examples/wolf_sheep/wolf_sheep/random_walk.py</a>
+Accessed on: November 2, 2017
+Original Author: Jackie Kazil</p>
+<p>Generalized behavior for random walking, one grid cell at a time.</p>
+<dl class="class">
+<dt id="examples.bank_reserves.bank_reserves.random_walk.RandomWalker">
+<em class="property">class </em><code class="sig-prename descclassname">examples.bank_reserves.bank_reserves.random_walk.</code><code class="sig-name descname">RandomWalker</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">moore=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.random_walk.RandomWalker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class implementing random walker methods in a generalized manner.
+Not indended to be used on its own, but to inherit its methods to multiple
+other agents.</p>
+<dl class="method">
+<dt id="examples.bank_reserves.bank_reserves.random_walk.RandomWalker.random_move">
+<code class="sig-name descname">random_move</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.bank_reserves.bank_reserves.random_walk.RandomWalker.random_move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Step one cell in any allowable direction.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.bank_reserves.bank_reserves.server"></span><span class="target" id="module-examples.boid_flockers.boid_flockers.boid"></span><dl class="class">
+<dt id="examples.boid_flockers.boid_flockers.boid.Boid">
+<em class="property">class </em><code class="sig-prename descclassname">examples.boid_flockers.boid_flockers.boid.</code><code class="sig-name descname">Boid</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">model</em>, <em class="sig-param">pos</em>, <em class="sig-param">speed</em>, <em class="sig-param">velocity</em>, <em class="sig-param">vision</em>, <em class="sig-param">separation</em>, <em class="sig-param">cohere=0.025</em>, <em class="sig-param">separate=0.25</em>, <em class="sig-param">match=0.04</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.boid.Boid" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Boid-style flocker agent.</p>
+<dl class="simple">
+<dt>The agent follows three behaviors to flock:</dt><dd><ul class="simple">
+<li><p>Cohesion: steering towards neighboring agents.</p></li>
+<li><p>Separation: avoiding getting too close to any other agent.</p></li>
+<li><p>Alignment: try to fly in the same direction as the neighbors.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Boids have a vision that defines the radius in which they look for their
+neighbors to flock with. Their speed (a scalar) and velocity (a vector)
+define their movement. Separation is their desired minimum distance from
+any other Boid.</p>
+<dl class="method">
+<dt id="examples.boid_flockers.boid_flockers.boid.Boid.cohere">
+<code class="sig-name descname">cohere</code><span class="sig-paren">(</span><em class="sig-param">neighbors</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.boid.Boid.cohere" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the vector toward the center of mass of the local neighbors.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.boid_flockers.boid_flockers.boid.Boid.match_heading">
+<code class="sig-name descname">match_heading</code><span class="sig-paren">(</span><em class="sig-param">neighbors</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.boid.Boid.match_heading" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a vector of the neighbors’ average heading.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.boid_flockers.boid_flockers.boid.Boid.separate">
+<code class="sig-name descname">separate</code><span class="sig-paren">(</span><em class="sig-param">neighbors</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.boid.Boid.separate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a vector away from any neighbors closer than separation dist.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.boid_flockers.boid_flockers.boid.Boid.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.boid.Boid.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the Boid’s neighbors, compute the new vector, and move accordingly.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.boid_flockers.boid_flockers.model"></span><div class="section" id="flockers">
+<h2>Flockers<a class="headerlink" href="#flockers" title="Permalink to this headline">¶</a></h2>
+<p>A Mesa implementation of Craig Reynolds’s Boids flocker model.
+Uses numpy arrays to represent vectors.</p>
+<dl class="class">
+<dt id="examples.boid_flockers.boid_flockers.model.BoidFlockers">
+<em class="property">class </em><code class="sig-prename descclassname">examples.boid_flockers.boid_flockers.model.</code><code class="sig-name descname">BoidFlockers</code><span class="sig-paren">(</span><em class="sig-param">population=100</em>, <em class="sig-param">width=100</em>, <em class="sig-param">height=100</em>, <em class="sig-param">speed=1</em>, <em class="sig-param">vision=10</em>, <em class="sig-param">separation=2</em>, <em class="sig-param">cohere=0.025</em>, <em class="sig-param">separate=0.25</em>, <em class="sig-param">match=0.04</em>, <em class="sig-param">server=True</em>, <em class="sig-param">num_steps=1000</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.model.BoidFlockers" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flocker model class. Handles agent creation, placement and scheduling.</p>
+<dl class="method">
+<dt id="examples.boid_flockers.boid_flockers.model.BoidFlockers.make_agents">
+<code class="sig-name descname">make_agents</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.model.BoidFlockers.make_agents" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create self.population agents, with random positions and starting headings.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.boid_flockers.boid_flockers.model.BoidFlockers.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.model.BoidFlockers.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.boid_flockers.boid_flockers.model.BoidFlockers.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.model.BoidFlockers.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step. Fill in here.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.boid_flockers.boid_flockers.server"></span><span class="target" id="module-examples.boid_flockers.boid_flockers.SimpleContinuousModule"></span><dl class="class">
+<dt id="examples.boid_flockers.boid_flockers.SimpleContinuousModule.SimpleCanvas">
+<em class="property">class </em><code class="sig-prename descclassname">examples.boid_flockers.boid_flockers.SimpleContinuousModule.</code><code class="sig-name descname">SimpleCanvas</code><span class="sig-paren">(</span><em class="sig-param">portrayal_method</em>, <em class="sig-param">canvas_height=500</em>, <em class="sig-param">canvas_width=500</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.SimpleContinuousModule.SimpleCanvas" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="examples.boid_flockers.boid_flockers.SimpleContinuousModule.SimpleCanvas.render">
+<code class="sig-name descname">render</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boid_flockers.boid_flockers.SimpleContinuousModule.SimpleCanvas.render" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build visualization data from a model object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>model</strong> – A model object</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A JSON-ready object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.boltzmann_wealth_model.boltzmann_wealth_model.model"></span><div class="section" id="boltzmann-wealth-model">
+<h2>Boltzmann Wealth Model<a class="headerlink" href="#boltzmann-wealth-model" title="Permalink to this headline">¶</a></h2>
+<p>This example created by MESA’s team</p>
+<dl class="class">
+<dt id="examples.boltzmann_wealth_model.boltzmann_wealth_model.model.BoltzmannWealthModel">
+<em class="property">class </em><code class="sig-prename descclassname">examples.boltzmann_wealth_model.boltzmann_wealth_model.model.</code><code class="sig-name descname">BoltzmannWealthModel</code><span class="sig-paren">(</span><em class="sig-param">N=100</em>, <em class="sig-param">width=10</em>, <em class="sig-param">height=10</em>, <em class="sig-param">num_steps=1000</em>, <em class="sig-param">server=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boltzmann_wealth_model.boltzmann_wealth_model.model.BoltzmannWealthModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>A simple model of an economy where agents exchange currency at random.</p>
+<p>All the agents begin with one unit of currency, and each time step can give
+a unit of currency to another agent. Note how, over time, this produces a
+highly skewed distribution of wealth.</p>
+<dl class="method">
+<dt id="examples.boltzmann_wealth_model.boltzmann_wealth_model.model.BoltzmannWealthModel.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boltzmann_wealth_model.boltzmann_wealth_model.model.BoltzmannWealthModel.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.boltzmann_wealth_model.boltzmann_wealth_model.model.BoltzmannWealthModel.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.boltzmann_wealth_model.boltzmann_wealth_model.model.BoltzmannWealthModel.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step. Fill in here.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="examples.boltzmann_wealth_model.boltzmann_wealth_model.model.MoneyAgent">
+<em class="property">class </em><code class="sig-prename descclassname">examples.boltzmann_wealth_model.boltzmann_wealth_model.model.</code><code class="sig-name descname">MoneyAgent</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boltzmann_wealth_model.boltzmann_wealth_model.model.MoneyAgent" title="Permalink to this definition">¶</a></dt>
+<dd><p>An agent with fixed initial wealth.</p>
+<dl class="method">
+<dt id="examples.boltzmann_wealth_model.boltzmann_wealth_model.model.MoneyAgent.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.boltzmann_wealth_model.boltzmann_wealth_model.model.MoneyAgent.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step of the agent.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.boltzmann_wealth_model.boltzmann_wealth_model.server"></span><span class="target" id="module-examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model"></span><div class="section" id="boltzmann-wealth-network-model">
+<h2>Boltzmann Wealth Network Model<a class="headerlink" href="#boltzmann-wealth-network-model" title="Permalink to this headline">¶</a></h2>
+<p>This example created by MESA’s team</p>
+<dl class="class">
+<dt id="examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.BoltzmannWealthModelNetwork">
+<em class="property">class </em><code class="sig-prename descclassname">examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.</code><code class="sig-name descname">BoltzmannWealthModelNetwork</code><span class="sig-paren">(</span><em class="sig-param">num_agents=7</em>, <em class="sig-param">num_nodes=10</em>, <em class="sig-param">num_steps=1000</em>, <em class="sig-param">server=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.BoltzmannWealthModelNetwork" title="Permalink to this definition">¶</a></dt>
+<dd><p>A model with some number of agents.</p>
+<dl class="method">
+<dt id="examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.BoltzmannWealthModelNetwork.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.BoltzmannWealthModelNetwork.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.BoltzmannWealthModelNetwork.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.BoltzmannWealthModelNetwork.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step. Fill in here.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.MoneyAgent">
+<em class="property">class </em><code class="sig-prename descclassname">examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.</code><code class="sig-name descname">MoneyAgent</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.MoneyAgent" title="Permalink to this definition">¶</a></dt>
+<dd><p>An agent with fixed initial wealth.</p>
+<dl class="method">
+<dt id="examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.MoneyAgent.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.model.MoneyAgent.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step of the agent.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.boltzmann_wealth_model_network.boltzmann_wealth_model_network.server"></span><span class="target" id="module-examples.conways_game_of_life.conways_game_of_life.cell"></span><dl class="class">
+<dt id="examples.conways_game_of_life.conways_game_of_life.cell.Cell">
+<em class="property">class </em><code class="sig-prename descclassname">examples.conways_game_of_life.conways_game_of_life.cell.</code><code class="sig-name descname">Cell</code><span class="sig-paren">(</span><em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">init_state=0</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.conways_game_of_life.conways_game_of_life.cell.Cell" title="Permalink to this definition">¶</a></dt>
+<dd><p>Represents a single ALIVE or DEAD cell in the simulation.</p>
+<dl class="method">
+<dt id="examples.conways_game_of_life.conways_game_of_life.cell.Cell.advance">
+<code class="sig-name descname">advance</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.conways_game_of_life.conways_game_of_life.cell.Cell.advance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the state to the new computed state – computed in step().</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.conways_game_of_life.conways_game_of_life.cell.Cell.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.conways_game_of_life.conways_game_of_life.cell.Cell.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute if the cell will be dead or alive at the next tick.  This is
+based on the number of alive or dead neighbors.  The state is not
+changed here, but is just computed and stored in self._nextState,
+because our current state may still be necessary for our neighbors
+to calculate their next state.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.conways_game_of_life.conways_game_of_life.model"></span><div class="section" id="conways-game-of-life-model">
+<h2>Conways Game of Life Model<a class="headerlink" href="#conways-game-of-life-model" title="Permalink to this headline">¶</a></h2>
+<p>This example created by MESA’s team.</p>
+<dl class="class">
+<dt id="examples.conways_game_of_life.conways_game_of_life.model.ConwaysGameOfLife">
+<em class="property">class </em><code class="sig-prename descclassname">examples.conways_game_of_life.conways_game_of_life.model.</code><code class="sig-name descname">ConwaysGameOfLife</code><span class="sig-paren">(</span><em class="sig-param">height=50</em>, <em class="sig-param">width=50</em>, <em class="sig-param">server=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.conways_game_of_life.conways_game_of_life.model.ConwaysGameOfLife" title="Permalink to this definition">¶</a></dt>
+<dd><p>Represents the 2-dimensional array of cells in Conway’s
+Game of Life.</p>
+<dl class="method">
+<dt id="examples.conways_game_of_life.conways_game_of_life.model.ConwaysGameOfLife.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.conways_game_of_life.conways_game_of_life.model.ConwaysGameOfLife.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.conways_game_of_life.conways_game_of_life.model.ConwaysGameOfLife.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.conways_game_of_life.conways_game_of_life.model.ConwaysGameOfLife.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Have the scheduler advance each cell by one step</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.conways_game_of_life.conways_game_of_life.portrayal"></span><dl class="function">
+<dt id="examples.conways_game_of_life.conways_game_of_life.portrayal.portrayCell">
+<code class="sig-prename descclassname">examples.conways_game_of_life.conways_game_of_life.portrayal.</code><code class="sig-name descname">portrayCell</code><span class="sig-paren">(</span><em class="sig-param">cell</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.conways_game_of_life.conways_game_of_life.portrayal.portrayCell" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is registered with the visualization server to be called
+each tick to indicate how to draw the cell in its current state.
+:param cell:  the cell in the simulation
+:return: the portrayal dictionary.</p>
+</dd></dl>
+
+<span class="target" id="module-examples.conways_game_of_life.conways_game_of_life.server"></span><span class="target" id="module-examples.epstein_civil_violence.epstein_civil_violence.agent"></span><dl class="class">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen">
+<em class="property">class </em><code class="sig-prename descclassname">examples.epstein_civil_violence.epstein_civil_violence.agent.</code><code class="sig-name descname">Citizen</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">model</em>, <em class="sig-param">pos</em>, <em class="sig-param">hardship</em>, <em class="sig-param">regime_legitimacy</em>, <em class="sig-param">risk_aversion</em>, <em class="sig-param">threshold</em>, <em class="sig-param">vision</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen" title="Permalink to this definition">¶</a></dt>
+<dd><p>A member of the general population, may or may not be in active rebellion.
+Summary of rule: If grievance - risk &gt; threshold, rebel.</p>
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.unique_id">
+<code class="sig-name descname">unique_id</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.unique_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>unique int</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt>
+<code class="sig-name descname">x, y</code></dt>
+<dd><p>Grid coordinates</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.hardship">
+<code class="sig-name descname">hardship</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.hardship" title="Permalink to this definition">¶</a></dt>
+<dd><p>Agent’s ‘perceived hardship (i.e., physical or economic
+privation).’ Exogenous, drawn from U(0,1).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.regime_legitimacy">
+<code class="sig-name descname">regime_legitimacy</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.regime_legitimacy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Agent’s perception of regime legitimacy, equal
+across agents.  Exogenous.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.risk_aversion">
+<code class="sig-name descname">risk_aversion</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.risk_aversion" title="Permalink to this definition">¶</a></dt>
+<dd><p>Exogenous, drawn from U(0,1).</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.threshold">
+<code class="sig-name descname">threshold</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.threshold" title="Permalink to this definition">¶</a></dt>
+<dd><p>if (grievance - (risk_aversion * arrest_probability)) &gt;
+threshold, go/remain Active</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.vision">
+<code class="sig-name descname">vision</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.vision" title="Permalink to this definition">¶</a></dt>
+<dd><p>number of cells in each direction (N, S, E and W) that agent
+can inspect</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.condition">
+<code class="sig-name descname">condition</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.condition" title="Permalink to this definition">¶</a></dt>
+<dd><p>Can be “Quiescent” or “Active;” deterministic function of
+greivance, perceived risk, and</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.grievance">
+<code class="sig-name descname">grievance</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.grievance" title="Permalink to this definition">¶</a></dt>
+<dd><p>deterministic function of hardship and regime_legitimacy;
+how aggrieved is agent at the regime?</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.arrest_probability">
+<code class="sig-name descname">arrest_probability</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.arrest_probability" title="Permalink to this definition">¶</a></dt>
+<dd><p>agent’s assessment of arrest probability, given
+rebellion</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decide whether to activate, then move if applicable.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.update_estimated_arrest_probability">
+<code class="sig-name descname">update_estimated_arrest_probability</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.update_estimated_arrest_probability" title="Permalink to this definition">¶</a></dt>
+<dd><p>Based on the ratio of cops to actives in my neighborhood, estimate the
+p(Arrest | I go active).</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.update_neighbors">
+<code class="sig-name descname">update_neighbors</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Citizen.update_neighbors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Look around and see who my neighbors are</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Cop">
+<em class="property">class </em><code class="sig-prename descclassname">examples.epstein_civil_violence.epstein_civil_violence.agent.</code><code class="sig-name descname">Cop</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">model</em>, <em class="sig-param">pos</em>, <em class="sig-param">vision</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Cop" title="Permalink to this definition">¶</a></dt>
+<dd><p>A cop for life.  No defection.
+Summary of rule: Inspect local vision and arrest a random active agent.</p>
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Cop.unique_id">
+<code class="sig-name descname">unique_id</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Cop.unique_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>unique int</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt>
+<code class="sig-name descname">x, y</code></dt>
+<dd><p>Grid coordinates</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Cop.vision">
+<code class="sig-name descname">vision</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Cop.vision" title="Permalink to this definition">¶</a></dt>
+<dd><p>number of cells in each direction (N, S, E and W) that cop is
+able to inspect</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Cop.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Cop.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Inspect local vision and arrest a random active agent. Move if
+applicable.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.agent.Cop.update_neighbors">
+<code class="sig-name descname">update_neighbors</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.agent.Cop.update_neighbors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Look around and see who my neighbors are.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.epstein_civil_violence.epstein_civil_violence.model"></span><div class="section" id="epstein-civil-violence-model">
+<h2>Epstein Civil Violence Model<a class="headerlink" href="#epstein-civil-violence-model" title="Permalink to this headline">¶</a></h2>
+<p>This example created by MESA’s team.</p>
+<dl class="class">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence">
+<em class="property">class </em><code class="sig-prename descclassname">examples.epstein_civil_violence.epstein_civil_violence.model.</code><code class="sig-name descname">EpsteinCivilViolence</code><span class="sig-paren">(</span><em class="sig-param">height=40</em>, <em class="sig-param">width=40</em>, <em class="sig-param">citizen_density=0.7</em>, <em class="sig-param">cop_density=0.074</em>, <em class="sig-param">citizen_vision=7</em>, <em class="sig-param">cop_vision=7</em>, <em class="sig-param">legitimacy=0.8</em>, <em class="sig-param">max_jail_term=1000</em>, <em class="sig-param">active_threshold=0.1</em>, <em class="sig-param">arrest_prob_constant=2.3</em>, <em class="sig-param">movement=True</em>, <em class="sig-param">max_iters=1000</em>, <em class="sig-param">server=True</em>, <em class="sig-param">num_steps=1000</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model 1 from “Modeling civil violence: An agent-based computational
+approach,” by Joshua Epstein.
+<a class="reference external" href="http://www.pnas.org/content/99/suppl_3/7243.full">http://www.pnas.org/content/99/suppl_3/7243.full</a>
+.. attribute:: height</p>
+<blockquote>
+<div><p>grid height</p>
+</div></blockquote>
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.width">
+<code class="sig-name descname">width</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.width" title="Permalink to this definition">¶</a></dt>
+<dd><p>grid width</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.citizen_density">
+<code class="sig-name descname">citizen_density</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.citizen_density" title="Permalink to this definition">¶</a></dt>
+<dd><p>approximate % of cells occupied by citizens.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.cop_density">
+<code class="sig-name descname">cop_density</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.cop_density" title="Permalink to this definition">¶</a></dt>
+<dd><p>approximate % of calles occupied by cops.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.citizen_vision">
+<code class="sig-name descname">citizen_vision</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.citizen_vision" title="Permalink to this definition">¶</a></dt>
+<dd><p>number of cells in each direction (N, S, E and W) that
+citizen can inspect</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.cop_vision">
+<code class="sig-name descname">cop_vision</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.cop_vision" title="Permalink to this definition">¶</a></dt>
+<dd><p>number of cells in each direction (N, S, E and W) that cop
+can inspect</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.legitimacy">
+<code class="sig-name descname">legitimacy</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.legitimacy" title="Permalink to this definition">¶</a></dt>
+<dd><p>(L) citizens’ perception of regime legitimacy, equal
+across all citizens</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.max_jail_term">
+<code class="sig-name descname">max_jail_term</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.max_jail_term" title="Permalink to this definition">¶</a></dt>
+<dd><p>(J_max)</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.active_threshold">
+<code class="sig-name descname">active_threshold</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.active_threshold" title="Permalink to this definition">¶</a></dt>
+<dd><p>if (grievance - (risk_aversion * arrest_probability))
+&gt; threshold, citizen rebels</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.arrest_prob_constant">
+<code class="sig-name descname">arrest_prob_constant</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.arrest_prob_constant" title="Permalink to this definition">¶</a></dt>
+<dd><p>set to ensure agents make plausible arrest
+probability estimates</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.movement">
+<code class="sig-name descname">movement</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.movement" title="Permalink to this definition">¶</a></dt>
+<dd><p>binary, whether agents try to move at step end</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.max_iters">
+<code class="sig-name descname">max_iters</code><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.max_iters" title="Permalink to this definition">¶</a></dt>
+<dd><p>model may not have a natural stopping point, so we set a
+max.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.count_jailed">
+<em class="property">static </em><code class="sig-name descname">count_jailed</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.count_jailed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Helper method to count jailed agents.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.count_type_citizens">
+<em class="property">static </em><code class="sig-name descname">count_type_citizens</code><span class="sig-paren">(</span><em class="sig-param">model</em>, <em class="sig-param">condition</em>, <em class="sig-param">exclude_jailed=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.count_type_citizens" title="Permalink to this definition">¶</a></dt>
+<dd><p>Helper method to count agents by Quiescent/Active.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.epstein_civil_violence.epstein_civil_violence.model.EpsteinCivilViolence.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Advance the model by one step and collect data.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.epstein_civil_violence.epstein_civil_violence.portrayal"></span><span class="target" id="module-examples.epstein_civil_violence.epstein_civil_violence.server"></span><span class="target" id="module-examples.forest_fire.forest_fire.agent"></span><dl class="class">
+<dt id="examples.forest_fire.forest_fire.agent.TreeCell">
+<em class="property">class </em><code class="sig-prename descclassname">examples.forest_fire.forest_fire.agent.</code><code class="sig-name descname">TreeCell</code><span class="sig-paren">(</span><em class="sig-param">pos</em>, <em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.forest_fire.forest_fire.agent.TreeCell" title="Permalink to this definition">¶</a></dt>
+<dd><p>A tree cell.</p>
+<dl class="attribute">
+<dt>
+<code class="sig-name descname">x, y</code></dt>
+<dd><p>Grid coordinates</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.forest_fire.forest_fire.agent.TreeCell.condition">
+<code class="sig-name descname">condition</code><a class="headerlink" href="#examples.forest_fire.forest_fire.agent.TreeCell.condition" title="Permalink to this definition">¶</a></dt>
+<dd><p>Can be “Fine”, “On Fire”, or “Burned Out”</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="examples.forest_fire.forest_fire.agent.TreeCell.unique_id">
+<code class="sig-name descname">unique_id</code><a class="headerlink" href="#examples.forest_fire.forest_fire.agent.TreeCell.unique_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>(x,y) tuple.</p>
+</dd></dl>
+
+<p>unique_id isn’t strictly necessary here, but it’s good
+practice to give one to each agent anyway.</p>
+<dl class="method">
+<dt id="examples.forest_fire.forest_fire.agent.TreeCell.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.forest_fire.forest_fire.agent.TreeCell.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>If the tree is on fire, spread it to fine trees nearby.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.forest_fire.forest_fire.model"></span><div class="section" id="forest-fire-model">
+<h2>Forest Fire Model<a class="headerlink" href="#forest-fire-model" title="Permalink to this headline">¶</a></h2>
+<p>This example created by MESA’s team.</p>
+<dl class="class">
+<dt id="examples.forest_fire.forest_fire.model.ForestFire">
+<em class="property">class </em><code class="sig-prename descclassname">examples.forest_fire.forest_fire.model.</code><code class="sig-name descname">ForestFire</code><span class="sig-paren">(</span><em class="sig-param">height=100</em>, <em class="sig-param">width=100</em>, <em class="sig-param">density=0.65</em>, <em class="sig-param">server=True</em>, <em class="sig-param">num_steps=1000</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.forest_fire.forest_fire.model.ForestFire" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simple Forest Fire model.</p>
+<dl class="method">
+<dt id="examples.forest_fire.forest_fire.model.ForestFire.count_type">
+<em class="property">static </em><code class="sig-name descname">count_type</code><span class="sig-paren">(</span><em class="sig-param">model</em>, <em class="sig-param">tree_condition</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.forest_fire.forest_fire.model.ForestFire.count_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Helper method to count trees in a given condition in a given model.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.forest_fire.forest_fire.model.ForestFire.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em>, <em class="sig-param">export_agent_data=False</em>, <em class="sig-param">export_model_data=False</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.forest_fire.forest_fire.model.ForestFire.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.forest_fire.forest_fire.model.ForestFire.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.forest_fire.forest_fire.model.ForestFire.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Advance the model by one step.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.forest_fire.forest_fire.server"></span><span class="target" id="module-examples.hex_snowflake.hex_snowflake.cell"></span><dl class="class">
+<dt id="examples.hex_snowflake.hex_snowflake.cell.Cell">
+<em class="property">class </em><code class="sig-prename descclassname">examples.hex_snowflake.hex_snowflake.cell.</code><code class="sig-name descname">Cell</code><span class="sig-paren">(</span><em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">init_state=0</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.hex_snowflake.hex_snowflake.cell.Cell" title="Permalink to this definition">¶</a></dt>
+<dd><p>Represents a single ALIVE or DEAD cell in the simulation.</p>
+<dl class="method">
+<dt id="examples.hex_snowflake.hex_snowflake.cell.Cell.advance">
+<code class="sig-name descname">advance</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.hex_snowflake.hex_snowflake.cell.Cell.advance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the state to the new computed state – computed in step().</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.hex_snowflake.hex_snowflake.cell.Cell.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.hex_snowflake.hex_snowflake.cell.Cell.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute if the cell will be dead or alive at the next tick. A dead
+cell will become alive if it has only one neighbor. The state is not
+changed here, but is just computed and stored in self._nextState,
+because our current state may still be necessary for our neighbors
+to calculate their next state.
+When a cell is made alive, its neighbors are able to be considered in the next step. Only cells that are considered check their neighbors for performance reasons.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.hex_snowflake.hex_snowflake.model"></span><div class="section" id="hex-snowflake-model">
+<h2>Hex Snowflake Model<a class="headerlink" href="#hex-snowflake-model" title="Permalink to this headline">¶</a></h2>
+<p>This example created by MESA’s team</p>
+<dl class="class">
+<dt id="examples.hex_snowflake.hex_snowflake.model.HexSnowflake">
+<em class="property">class </em><code class="sig-prename descclassname">examples.hex_snowflake.hex_snowflake.model.</code><code class="sig-name descname">HexSnowflake</code><span class="sig-paren">(</span><em class="sig-param">height=50</em>, <em class="sig-param">width=50</em>, <em class="sig-param">server=True</em>, <em class="sig-param">num_steps=1000</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.hex_snowflake.hex_snowflake.model.HexSnowflake" title="Permalink to this definition">¶</a></dt>
+<dd><p>Represents the hex grid of cells. The grid is represented by a 2-dimensional array of cells with adjacency rules specific to hexagons.</p>
+<dl class="method">
+<dt id="examples.hex_snowflake.hex_snowflake.model.HexSnowflake.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.hex_snowflake.hex_snowflake.model.HexSnowflake.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.hex_snowflake.hex_snowflake.model.HexSnowflake.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.hex_snowflake.hex_snowflake.model.HexSnowflake.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Have the scheduler advance each cell by one step</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.hex_snowflake.hex_snowflake.portrayal"></span><dl class="function">
+<dt id="examples.hex_snowflake.hex_snowflake.portrayal.portrayCell">
+<code class="sig-prename descclassname">examples.hex_snowflake.hex_snowflake.portrayal.</code><code class="sig-name descname">portrayCell</code><span class="sig-paren">(</span><em class="sig-param">cell</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.hex_snowflake.hex_snowflake.portrayal.portrayCell" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is registered with the visualization server to be called
+each tick to indicate how to draw the cell in its current state.
+:param cell:  the cell in the simulation
+:return: the portrayal dictionary.</p>
+</dd></dl>
+
+<span class="target" id="module-examples.hex_snowflake.hex_snowflake.server"></span><span class="target" id="module-examples.pd_grid.pd_grid.agent"></span><dl class="class">
+<dt id="examples.pd_grid.pd_grid.agent.PDAgent">
+<em class="property">class </em><code class="sig-prename descclassname">examples.pd_grid.pd_grid.agent.</code><code class="sig-name descname">PDAgent</code><span class="sig-paren">(</span><em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">starting_move=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.pd_grid.pd_grid.agent.PDAgent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Agent member of the iterated, spatial prisoner’s dilemma model.</p>
+<dl class="method">
+<dt id="examples.pd_grid.pd_grid.agent.PDAgent.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.pd_grid.pd_grid.agent.PDAgent.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the neighbors’ moves, and change own move accordingly.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.pd_grid.pd_grid.model"></span><div class="section" id="prisoner-s-dilemma-grid-model">
+<h2>Prisoner’s Dilemma Grid Model<a class="headerlink" href="#prisoner-s-dilemma-grid-model" title="Permalink to this headline">¶</a></h2>
+<p>This example created by MESA’s team</p>
+<dl class="class">
+<dt id="examples.pd_grid.pd_grid.model.PdGrid">
+<em class="property">class </em><code class="sig-prename descclassname">examples.pd_grid.pd_grid.model.</code><code class="sig-name descname">PdGrid</code><span class="sig-paren">(</span><em class="sig-param">height=50</em>, <em class="sig-param">width=50</em>, <em class="sig-param">schedule_type='Random'</em>, <em class="sig-param">payoffs=None</em>, <em class="sig-param">seed=None</em>, <em class="sig-param">server=True</em>, <em class="sig-param">num_steps=1000</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.pd_grid.pd_grid.model.PdGrid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model class for iterated, spatial prisoner’s dilemma model.</p>
+<dl class="method">
+<dt id="examples.pd_grid.pd_grid.model.PdGrid.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.pd_grid.pd_grid.model.PdGrid.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.pd_grid.pd_grid.model.PdGrid.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.pd_grid.pd_grid.model.PdGrid.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step. Fill in here.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.pd_grid.pd_grid.portrayal"></span><dl class="function">
+<dt id="examples.pd_grid.pd_grid.portrayal.portrayPDAgent">
+<code class="sig-prename descclassname">examples.pd_grid.pd_grid.portrayal.</code><code class="sig-name descname">portrayPDAgent</code><span class="sig-paren">(</span><em class="sig-param">agent</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.pd_grid.pd_grid.portrayal.portrayPDAgent" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is registered with the visualization server to be called
+each tick to indicate how to draw the agent in its current state.
+:param agent:  the agent in the simulation
+:return: the portrayal dictionary</p>
+</dd></dl>
+
+<span class="target" id="module-examples.pd_grid.pd_grid.server"></span><span class="target" id="module-examples.schelling.model"></span><div class="section" id="schelling-model">
+<h2>Schelling Model<a class="headerlink" href="#schelling-model" title="Permalink to this headline">¶</a></h2>
+<p>This example created by MESA’s team.</p>
+<dl class="class">
+<dt id="examples.schelling.model.Schelling">
+<em class="property">class </em><code class="sig-prename descclassname">examples.schelling.model.</code><code class="sig-name descname">Schelling</code><span class="sig-paren">(</span><em class="sig-param">height=20</em>, <em class="sig-param">width=20</em>, <em class="sig-param">density=0.8</em>, <em class="sig-param">minority_pc=0.2</em>, <em class="sig-param">homophily=3</em>, <em class="sig-param">num_steps=1000</em>, <em class="sig-param">server=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.schelling.model.Schelling" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model class for the Schelling segregation model.</p>
+<dl class="method">
+<dt id="examples.schelling.model.Schelling.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.schelling.model.Schelling.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.schelling.model.Schelling.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.schelling.model.Schelling.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run one step of the model. If All agents are happy, halt the model.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="examples.schelling.model.SchellingAgent">
+<em class="property">class </em><code class="sig-prename descclassname">examples.schelling.model.</code><code class="sig-name descname">SchellingAgent</code><span class="sig-paren">(</span><em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">agent_type</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.schelling.model.SchellingAgent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Schelling segregation agent</p>
+<dl class="method">
+<dt id="examples.schelling.model.SchellingAgent.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.schelling.model.SchellingAgent.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step of the agent.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.schelling.server"></span><dl class="class">
+<dt id="examples.schelling.server.HappyElement">
+<em class="property">class </em><code class="sig-prename descclassname">examples.schelling.server.</code><code class="sig-name descname">HappyElement</code><a class="headerlink" href="#examples.schelling.server.HappyElement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Display a text count of how many happy agents there are.</p>
+<dl class="method">
+<dt id="examples.schelling.server.HappyElement.render">
+<code class="sig-name descname">render</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.schelling.server.HappyElement.render" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build visualization data from a model object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>model</strong> – A model object</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A JSON-ready object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="examples.schelling.server.schelling_draw">
+<code class="sig-prename descclassname">examples.schelling.server.</code><code class="sig-name descname">schelling_draw</code><span class="sig-paren">(</span><em class="sig-param">agent</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.schelling.server.schelling_draw" title="Permalink to this definition">¶</a></dt>
+<dd><p>Portrayal Method for canvas</p>
+</dd></dl>
+
+<span class="target" id="module-examples.sugarscape_cg.sugarscape_cg.model"></span><div class="section" id="sugarscape-constant-growback-model">
+<h2>Sugarscape Constant Growback Model<a class="headerlink" href="#sugarscape-constant-growback-model" title="Permalink to this headline">¶</a></h2>
+<p>Replication of the model found in Netlogo:
+Li, J. and Wilensky, U. (2009). NetLogo Sugarscape 2 Constant Growback model.
+<a class="reference external" href="http://ccl.northwestern.edu/netlogo/models/Sugarscape2ConstantGrowback">http://ccl.northwestern.edu/netlogo/models/Sugarscape2ConstantGrowback</a>.
+Center for Connected Learning and Computer-Based Modeling,
+Northwestern University, Evanston, IL.</p>
+<dl class="class">
+<dt id="examples.sugarscape_cg.sugarscape_cg.model.SugarscapeCg">
+<em class="property">class </em><code class="sig-prename descclassname">examples.sugarscape_cg.sugarscape_cg.model.</code><code class="sig-name descname">SugarscapeCg</code><span class="sig-paren">(</span><em class="sig-param">height=50</em>, <em class="sig-param">width=50</em>, <em class="sig-param">initial_population=100</em>, <em class="sig-param">server=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.model.SugarscapeCg" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sugarscape 2 Constant Growback</p>
+<dl class="method">
+<dt id="examples.sugarscape_cg.sugarscape_cg.model.SugarscapeCg.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">step_count=200</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.model.SugarscapeCg.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.sugarscape_cg.sugarscape_cg.model.SugarscapeCg.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.model.SugarscapeCg.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step. Fill in here.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.sugarscape_cg.sugarscape_cg.agents"></span><dl class="class">
+<dt id="examples.sugarscape_cg.sugarscape_cg.agents.SsAgent">
+<em class="property">class </em><code class="sig-prename descclassname">examples.sugarscape_cg.sugarscape_cg.agents.</code><code class="sig-name descname">SsAgent</code><span class="sig-paren">(</span><em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">moore=False</em>, <em class="sig-param">sugar=0</em>, <em class="sig-param">metabolism=0</em>, <em class="sig-param">vision=0</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.agents.SsAgent" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="examples.sugarscape_cg.sugarscape_cg.agents.SsAgent.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.agents.SsAgent.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step of the agent.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="examples.sugarscape_cg.sugarscape_cg.agents.Sugar">
+<em class="property">class </em><code class="sig-prename descclassname">examples.sugarscape_cg.sugarscape_cg.agents.</code><code class="sig-name descname">Sugar</code><span class="sig-paren">(</span><em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">max_sugar</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.agents.Sugar" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="examples.sugarscape_cg.sugarscape_cg.agents.Sugar.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.agents.Sugar.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step of the agent.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="examples.sugarscape_cg.sugarscape_cg.agents.get_distance">
+<code class="sig-prename descclassname">examples.sugarscape_cg.sugarscape_cg.agents.</code><code class="sig-name descname">get_distance</code><span class="sig-paren">(</span><em class="sig-param">pos_1</em>, <em class="sig-param">pos_2</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.agents.get_distance" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the distance between two point</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>pos_2</strong> (<em>pos_1</em><em>,</em>) – Coordinate tuples for both points.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-examples.sugarscape_cg.sugarscape_cg.schedule"></span><dl class="class">
+<dt id="examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed">
+<em class="property">class </em><code class="sig-prename descclassname">examples.sugarscape_cg.sugarscape_cg.schedule.</code><code class="sig-name descname">RandomActivationByBreed</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed" title="Permalink to this definition">¶</a></dt>
+<dd><p>A scheduler which activates each type of agent once per step, in random
+order, with the order reshuffled every step.</p>
+<p>This is equivalent to the NetLogo ‘ask breed…’ and is generally the
+default behavior for an ABM.</p>
+<p>Assumes that all agents have a step() method.</p>
+<dl class="method">
+<dt id="examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed.add">
+<code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="sig-param">agent</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an Agent object to the schedule</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>agent</strong> – An Agent to be added to the schedule.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed.get_breed_count">
+<code class="sig-name descname">get_breed_count</code><span class="sig-paren">(</span><em class="sig-param">breed_class</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed.get_breed_count" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the current number of agents of certain breed in the queue.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed.remove">
+<code class="sig-name descname">remove</code><span class="sig-paren">(</span><em class="sig-param">agent</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove all instances of a given agent from the schedule.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><em class="sig-param">by_breed=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Executes the step of each agent breed, one at a time, in random order.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>by_breed</strong> – If True, run all agents of a single breed before running
+the next one.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed.step_breed">
+<code class="sig-name descname">step_breed</code><span class="sig-paren">(</span><em class="sig-param">breed</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.sugarscape_cg.sugarscape_cg.schedule.RandomActivationByBreed.step_breed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shuffle order and run all agents of a given breed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>breed</strong> – Class object of the breed to run.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.virus_on_network.virus_on_network.model"></span><div class="section" id="virus-on-network-model">
+<h2>Virus-On-Network Model<a class="headerlink" href="#virus-on-network-model" title="Permalink to this headline">¶</a></h2>
+<p>This example created by MESA’s team.</p>
+<dl class="class">
+<dt id="examples.virus_on_network.virus_on_network.model.State">
+<em class="property">class </em><code class="sig-prename descclassname">examples.virus_on_network.virus_on_network.model.</code><code class="sig-name descname">State</code><a class="headerlink" href="#examples.virus_on_network.virus_on_network.model.State" title="Permalink to this definition">¶</a></dt>
+<dd><p>An enumeration.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="examples.virus_on_network.virus_on_network.model.VirusAgent">
+<em class="property">class </em><code class="sig-prename descclassname">examples.virus_on_network.virus_on_network.model.</code><code class="sig-name descname">VirusAgent</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">model</em>, <em class="sig-param">initial_state</em>, <em class="sig-param">virus_spread_chance</em>, <em class="sig-param">virus_check_frequency</em>, <em class="sig-param">recovery_chance</em>, <em class="sig-param">gain_resistance_chance</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.virus_on_network.virus_on_network.model.VirusAgent" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="examples.virus_on_network.virus_on_network.model.VirusAgent.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.virus_on_network.virus_on_network.model.VirusAgent.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step of the agent.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="examples.virus_on_network.virus_on_network.model.VirusOnNetwork">
+<em class="property">class </em><code class="sig-prename descclassname">examples.virus_on_network.virus_on_network.model.</code><code class="sig-name descname">VirusOnNetwork</code><span class="sig-paren">(</span><em class="sig-param">num_nodes=10</em>, <em class="sig-param">avg_node_degree=3</em>, <em class="sig-param">initial_outbreak_size=1</em>, <em class="sig-param">virus_spread_chance=0.4</em>, <em class="sig-param">virus_check_frequency=0.4</em>, <em class="sig-param">recovery_chance=0.3</em>, <em class="sig-param">gain_resistance_chance=0.5</em>, <em class="sig-param">num_steps=1000</em>, <em class="sig-param">server=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.virus_on_network.virus_on_network.model.VirusOnNetwork" title="Permalink to this definition">¶</a></dt>
+<dd><p>A virus model with some number of agents</p>
+<dl class="method">
+<dt id="examples.virus_on_network.virus_on_network.model.VirusOnNetwork.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.virus_on_network.virus_on_network.model.VirusOnNetwork.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.virus_on_network.virus_on_network.model.VirusOnNetwork.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.virus_on_network.virus_on_network.model.VirusOnNetwork.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step. Fill in here.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.virus_on_network.virus_on_network.server"></span><dl class="class">
+<dt id="examples.virus_on_network.virus_on_network.server.MyTextElement">
+<em class="property">class </em><code class="sig-prename descclassname">examples.virus_on_network.virus_on_network.server.</code><code class="sig-name descname">MyTextElement</code><a class="headerlink" href="#examples.virus_on_network.virus_on_network.server.MyTextElement" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="examples.virus_on_network.virus_on_network.server.MyTextElement.render">
+<code class="sig-name descname">render</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.virus_on_network.virus_on_network.server.MyTextElement.render" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build visualization data from a model object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>model</strong> – A model object</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A JSON-ready object.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.wolf_sheep.wolf_sheep.model"></span><div class="section" id="wolf-sheep-predation-model">
+<h2>Wolf-Sheep Predation Model<a class="headerlink" href="#wolf-sheep-predation-model" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Replication of the model found in NetLogo:</dt><dd><p>Wilensky, U. (1997). NetLogo Wolf Sheep Predation model.
+<a class="reference external" href="http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation">http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation</a>.
+Center for Connected Learning and Computer-Based Modeling,
+Northwestern University, Evanston, IL.</p>
+</dd>
+</dl>
+<dl class="class">
+<dt id="examples.wolf_sheep.wolf_sheep.model.WolfSheep">
+<em class="property">class </em><code class="sig-prename descclassname">examples.wolf_sheep.wolf_sheep.model.</code><code class="sig-name descname">WolfSheep</code><span class="sig-paren">(</span><em class="sig-param">height=20</em>, <em class="sig-param">width=20</em>, <em class="sig-param">initial_sheep=100</em>, <em class="sig-param">initial_wolves=50</em>, <em class="sig-param">sheep_reproduce=0.04</em>, <em class="sig-param">wolf_reproduce=0.05</em>, <em class="sig-param">wolf_gain_from_food=20</em>, <em class="sig-param">grass=False</em>, <em class="sig-param">grass_regrowth_time=30</em>, <em class="sig-param">sheep_gain_from_food=4</em>, <em class="sig-param">num_steps=1000</em>, <em class="sig-param">server=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.model.WolfSheep" title="Permalink to this definition">¶</a></dt>
+<dd><p>Wolf-Sheep Predation Model</p>
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.model.WolfSheep.run_model">
+<code class="sig-name descname">run_model</code><span class="sig-paren">(</span><em class="sig-param">n=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.model.WolfSheep.run_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run the model until the end condition is reached. Overload as
+needed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.model.WolfSheep.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.model.WolfSheep.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step. Fill in here.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<span class="target" id="module-examples.wolf_sheep.wolf_sheep.agents"></span><dl class="class">
+<dt id="examples.wolf_sheep.wolf_sheep.agents.GrassPatch">
+<em class="property">class </em><code class="sig-prename descclassname">examples.wolf_sheep.wolf_sheep.agents.</code><code class="sig-name descname">GrassPatch</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">fully_grown</em>, <em class="sig-param">countdown</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.agents.GrassPatch" title="Permalink to this definition">¶</a></dt>
+<dd><p>A patch of grass that grows at a fixed rate and it is eaten by sheep</p>
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.agents.GrassPatch.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.agents.GrassPatch.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step of the agent.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="examples.wolf_sheep.wolf_sheep.agents.Sheep">
+<em class="property">class </em><code class="sig-prename descclassname">examples.wolf_sheep.wolf_sheep.agents.</code><code class="sig-name descname">Sheep</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">moore</em>, <em class="sig-param">energy=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.agents.Sheep" title="Permalink to this definition">¶</a></dt>
+<dd><p>A sheep that walks around, reproduces (asexually) and gets eaten.</p>
+<p>The init is the same as the RandomWalker.</p>
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.agents.Sheep.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.agents.Sheep.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A model step. Move, then eat grass and reproduce.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="examples.wolf_sheep.wolf_sheep.agents.Wolf">
+<em class="property">class </em><code class="sig-prename descclassname">examples.wolf_sheep.wolf_sheep.agents.</code><code class="sig-name descname">Wolf</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">moore</em>, <em class="sig-param">energy=None</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.agents.Wolf" title="Permalink to this definition">¶</a></dt>
+<dd><p>A wolf that walks around, reproduces (asexually) and eats sheep.</p>
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.agents.Wolf.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.agents.Wolf.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>A single step of the agent.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.wolf_sheep.wolf_sheep.random_walk"></span><p>Generalized behavior for random walking, one grid cell at a time.</p>
+<dl class="class">
+<dt id="examples.wolf_sheep.wolf_sheep.random_walk.RandomWalker">
+<em class="property">class </em><code class="sig-prename descclassname">examples.wolf_sheep.wolf_sheep.random_walk.</code><code class="sig-name descname">RandomWalker</code><span class="sig-paren">(</span><em class="sig-param">unique_id</em>, <em class="sig-param">pos</em>, <em class="sig-param">model</em>, <em class="sig-param">moore=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.random_walk.RandomWalker" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class implementing random walker methods in a generalized manner.</p>
+<p>Not indended to be used on its own, but to inherit its methods to multiple
+other agents.</p>
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.random_walk.RandomWalker.random_move">
+<code class="sig-name descname">random_move</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.random_walk.RandomWalker.random_move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Step one cell in any allowable direction.</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.wolf_sheep.wolf_sheep.schedule"></span><dl class="class">
+<dt id="examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed">
+<em class="property">class </em><code class="sig-prename descclassname">examples.wolf_sheep.wolf_sheep.schedule.</code><code class="sig-name descname">RandomActivationByBreed</code><span class="sig-paren">(</span><em class="sig-param">model</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed" title="Permalink to this definition">¶</a></dt>
+<dd><p>A scheduler which activates each type of agent once per step, in random
+order, with the order reshuffled every step.</p>
+<p>This is equivalent to the NetLogo ‘ask breed…’ and is generally the
+default behavior for an ABM.</p>
+<p>Assumes that all agents have a step() method.</p>
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed.add">
+<code class="sig-name descname">add</code><span class="sig-paren">(</span><em class="sig-param">agent</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an Agent object to the schedule</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>agent</strong> – An Agent to be added to the schedule.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed.get_breed_count">
+<code class="sig-name descname">get_breed_count</code><span class="sig-paren">(</span><em class="sig-param">breed_class</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed.get_breed_count" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the current number of agents of certain breed in the queue.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed.remove">
+<code class="sig-name descname">remove</code><span class="sig-paren">(</span><em class="sig-param">agent</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove all instances of a given agent from the schedule.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed.step">
+<code class="sig-name descname">step</code><span class="sig-paren">(</span><em class="sig-param">by_breed=True</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Executes the step of each agent breed, one at a time, in random order.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>by_breed</strong> – If True, run all agents of a single breed before running
+the next one.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed.step_breed">
+<code class="sig-name descname">step_breed</code><span class="sig-paren">(</span><em class="sig-param">breed</em><span class="sig-paren">)</span><a class="headerlink" href="#examples.wolf_sheep.wolf_sheep.schedule.RandomActivationByBreed.step_breed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Shuffle order and run all agents of a given breed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>breed</strong> – Class object of the breed to run.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-examples.wolf_sheep.wolf_sheep.server"></span></div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Open ABM</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Welcome to Open ABM’s documentation!</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Conor M. Artman.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,207 @@
+\indexentry{oabm\_tools (module)@\spxentry{oabm\_tools}\spxextra{module}|hyperpage}{1}
+\indexentry{check\_models() (in module oabm\_tools)@\spxentry{check\_models()}\spxextra{in module oabm\_tools}|hyperpage}{1}
+\indexentry{export\_agent\_data() (in module oabm\_tools)@\spxentry{export\_agent\_data()}\spxextra{in module oabm\_tools}|hyperpage}{1}
+\indexentry{export\_data() (in module oabm\_tools)@\spxentry{export\_data()}\spxextra{in module oabm\_tools}|hyperpage}{1}
+\indexentry{export\_model\_data() (in module oabm\_tools)@\spxentry{export\_model\_data()}\spxextra{in module oabm\_tools}|hyperpage}{1}
+\indexentry{get\_agent\_parameters() (in module oabm\_tools)@\spxentry{get\_agent\_parameters()}\spxextra{in module oabm\_tools}|hyperpage}{1}
+\indexentry{get\_agent\_step() (in module oabm\_tools)@\spxentry{get\_agent\_step()}\spxextra{in module oabm\_tools}|hyperpage}{2}
+\indexentry{get\_model\_parameters() (in module oabm\_tools)@\spxentry{get\_model\_parameters()}\spxextra{in module oabm\_tools}|hyperpage}{2}
+\indexentry{get\_model\_step() (in module oabm\_tools)@\spxentry{get\_model\_step()}\spxextra{in module oabm\_tools}|hyperpage}{2}
+\indexentry{make() (in module oabm\_tools)@\spxentry{make()}\spxextra{in module oabm\_tools}|hyperpage}{2}
+\indexentry{nested\_dict() (in module oabm\_tools)@\spxentry{nested\_dict()}\spxextra{in module oabm\_tools}|hyperpage}{2}
+\indexentry{set\_agent\_parameters() (in module oabm\_tools)@\spxentry{set\_agent\_parameters()}\spxextra{in module oabm\_tools}|hyperpage}{2}
+\indexentry{set\_agent\_step() (in module oabm\_tools)@\spxentry{set\_agent\_step()}\spxextra{in module oabm\_tools}|hyperpage}{2}
+\indexentry{set\_data\_collection() (in module oabm\_tools)@\spxentry{set\_data\_collection()}\spxextra{in module oabm\_tools}|hyperpage}{3}
+\indexentry{set\_model\_parameters() (in module oabm\_tools)@\spxentry{set\_model\_parameters()}\spxextra{in module oabm\_tools}|hyperpage}{3}
+\indexentry{set\_model\_step() (in module oabm\_tools)@\spxentry{set\_model\_step()}\spxextra{in module oabm\_tools}|hyperpage}{3}
+\indexentry{examples.bank\_reserves.bank\_reserves.model (module)@\spxentry{examples.bank\_reserves.bank\_reserves.model}\spxextra{module}|hyperpage}{3}
+\indexentry{BankReserves (class in examples.bank\_reserves.bank\_reserves.model)@\spxentry{BankReserves}\spxextra{class in examples.bank\_reserves.bank\_reserves.model}|hyperpage}{5}
+\indexentry{grid\_w (examples.bank\_reserves.bank\_reserves.model.BankReserves attribute)@\spxentry{grid\_w}\spxextra{examples.bank\_reserves.bank\_reserves.model.BankReserves attribute}|hyperpage}{5}
+\indexentry{run\_model() (examples.bank\_reserves.bank\_reserves.model.BankReserves method)@\spxentry{run\_model()}\spxextra{examples.bank\_reserves.bank\_reserves.model.BankReserves method}|hyperpage}{5}
+\indexentry{step() (examples.bank\_reserves.bank\_reserves.model.BankReserves method)@\spxentry{step()}\spxextra{examples.bank\_reserves.bank\_reserves.model.BankReserves method}|hyperpage}{5}
+\indexentry{get\_num\_mid\_agents() (in module examples.bank\_reserves.bank\_reserves.model)@\spxentry{get\_num\_mid\_agents()}\spxextra{in module examples.bank\_reserves.bank\_reserves.model}|hyperpage}{5}
+\indexentry{get\_num\_poor\_agents() (in module examples.bank\_reserves.bank\_reserves.model)@\spxentry{get\_num\_poor\_agents()}\spxextra{in module examples.bank\_reserves.bank\_reserves.model}|hyperpage}{5}
+\indexentry{get\_num\_rich\_agents() (in module examples.bank\_reserves.bank\_reserves.model)@\spxentry{get\_num\_rich\_agents()}\spxextra{in module examples.bank\_reserves.bank\_reserves.model}|hyperpage}{5}
+\indexentry{get\_total\_savings() (in module examples.bank\_reserves.bank\_reserves.model)@\spxentry{get\_total\_savings()}\spxextra{in module examples.bank\_reserves.bank\_reserves.model}|hyperpage}{5}
+\indexentry{get\_total\_wallets() (in module examples.bank\_reserves.bank\_reserves.model)@\spxentry{get\_total\_wallets()}\spxextra{in module examples.bank\_reserves.bank\_reserves.model}|hyperpage}{5}
+\indexentry{examples.bank\_reserves.bank\_reserves.agents (module)@\spxentry{examples.bank\_reserves.bank\_reserves.agents}\spxextra{module}|hyperpage}{6}
+\indexentry{Bank (class in examples.bank\_reserves.bank\_reserves.agents)@\spxentry{Bank}\spxextra{class in examples.bank\_reserves.bank\_reserves.agents}|hyperpage}{6}
+\indexentry{bank\_loans (examples.bank\_reserves.bank\_reserves.agents.Bank attribute)@\spxentry{bank\_loans}\spxextra{examples.bank\_reserves.bank\_reserves.agents.Bank attribute}|hyperpage}{6}
+\indexentry{Person (class in examples.bank\_reserves.bank\_reserves.agents)@\spxentry{Person}\spxextra{class in examples.bank\_reserves.bank\_reserves.agents}|hyperpage}{6}
+\indexentry{do\_business() (examples.bank\_reserves.bank\_reserves.agents.Person method)@\spxentry{do\_business()}\spxextra{examples.bank\_reserves.bank\_reserves.agents.Person method}|hyperpage}{6}
+\indexentry{loans (examples.bank\_reserves.bank\_reserves.agents.Person attribute)@\spxentry{loans}\spxextra{examples.bank\_reserves.bank\_reserves.agents.Person attribute}|hyperpage}{6}
+\indexentry{step() (examples.bank\_reserves.bank\_reserves.agents.Person method)@\spxentry{step()}\spxextra{examples.bank\_reserves.bank\_reserves.agents.Person method}|hyperpage}{6}
+\indexentry{take\_out\_loan() (examples.bank\_reserves.bank\_reserves.agents.Person method)@\spxentry{take\_out\_loan()}\spxextra{examples.bank\_reserves.bank\_reserves.agents.Person method}|hyperpage}{6}
+\indexentry{examples.bank\_reserves.bank\_reserves.random\_walk (module)@\spxentry{examples.bank\_reserves.bank\_reserves.random\_walk}\spxextra{module}|hyperpage}{6}
+\indexentry{RandomWalker (class in examples.bank\_reserves.bank\_reserves.random\_walk)@\spxentry{RandomWalker}\spxextra{class in examples.bank\_reserves.bank\_reserves.random\_walk}|hyperpage}{6}
+\indexentry{random\_move() (examples.bank\_reserves.bank\_reserves.random\_walk.RandomWalker method)@\spxentry{random\_move()}\spxextra{examples.bank\_reserves.bank\_reserves.random\_walk.RandomWalker method}|hyperpage}{6}
+\indexentry{examples.bank\_reserves.bank\_reserves.server (module)@\spxentry{examples.bank\_reserves.bank\_reserves.server}\spxextra{module}|hyperpage}{6}
+\indexentry{examples.boid\_flockers.boid\_flockers.boid (module)@\spxentry{examples.boid\_flockers.boid\_flockers.boid}\spxextra{module}|hyperpage}{6}
+\indexentry{Boid (class in examples.boid\_flockers.boid\_flockers.boid)@\spxentry{Boid}\spxextra{class in examples.boid\_flockers.boid\_flockers.boid}|hyperpage}{6}
+\indexentry{cohere() (examples.boid\_flockers.boid\_flockers.boid.Boid method)@\spxentry{cohere()}\spxextra{examples.boid\_flockers.boid\_flockers.boid.Boid method}|hyperpage}{6}
+\indexentry{match\_heading() (examples.boid\_flockers.boid\_flockers.boid.Boid method)@\spxentry{match\_heading()}\spxextra{examples.boid\_flockers.boid\_flockers.boid.Boid method}|hyperpage}{7}
+\indexentry{separate() (examples.boid\_flockers.boid\_flockers.boid.Boid method)@\spxentry{separate()}\spxextra{examples.boid\_flockers.boid\_flockers.boid.Boid method}|hyperpage}{7}
+\indexentry{step() (examples.boid\_flockers.boid\_flockers.boid.Boid method)@\spxentry{step()}\spxextra{examples.boid\_flockers.boid\_flockers.boid.Boid method}|hyperpage}{7}
+\indexentry{examples.boid\_flockers.boid\_flockers.model (module)@\spxentry{examples.boid\_flockers.boid\_flockers.model}\spxextra{module}|hyperpage}{7}
+\indexentry{BoidFlockers (class in examples.boid\_flockers.boid\_flockers.model)@\spxentry{BoidFlockers}\spxextra{class in examples.boid\_flockers.boid\_flockers.model}|hyperpage}{9}
+\indexentry{make\_agents() (examples.boid\_flockers.boid\_flockers.model.BoidFlockers method)@\spxentry{make\_agents()}\spxextra{examples.boid\_flockers.boid\_flockers.model.BoidFlockers method}|hyperpage}{9}
+\indexentry{run\_model() (examples.boid\_flockers.boid\_flockers.model.BoidFlockers method)@\spxentry{run\_model()}\spxextra{examples.boid\_flockers.boid\_flockers.model.BoidFlockers method}|hyperpage}{9}
+\indexentry{step() (examples.boid\_flockers.boid\_flockers.model.BoidFlockers method)@\spxentry{step()}\spxextra{examples.boid\_flockers.boid\_flockers.model.BoidFlockers method}|hyperpage}{9}
+\indexentry{examples.boid\_flockers.boid\_flockers.server (module)@\spxentry{examples.boid\_flockers.boid\_flockers.server}\spxextra{module}|hyperpage}{9}
+\indexentry{examples.boid\_flockers.boid\_flockers.SimpleContinuousModule (module)@\spxentry{examples.boid\_flockers.boid\_flockers.SimpleContinuousModule}\spxextra{module}|hyperpage}{9}
+\indexentry{SimpleCanvas (class in examples.boid\_flockers.boid\_flockers.SimpleContinuousModule)@\spxentry{SimpleCanvas}\spxextra{class in examples.boid\_flockers.boid\_flockers.SimpleContinuousModule}|hyperpage}{9}
+\indexentry{render() (examples.boid\_flockers.boid\_flockers.SimpleContinuousModule.SimpleCanvas method)@\spxentry{render()}\spxextra{examples.boid\_flockers.boid\_flockers.SimpleContinuousModule.SimpleCanvas method}|hyperpage}{9}
+\indexentry{examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model (module)@\spxentry{examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model}\spxextra{module}|hyperpage}{9}
+\indexentry{BoltzmannWealthModel (class in examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model)@\spxentry{BoltzmannWealthModel}\spxextra{class in examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model}|hyperpage}{11}
+\indexentry{run\_model() (examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model.BoltzmannWealthModel method)@\spxentry{run\_model()}\spxextra{examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model.BoltzmannWealthModel method}|hyperpage}{11}
+\indexentry{step() (examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model.BoltzmannWealthModel method)@\spxentry{step()}\spxextra{examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model.BoltzmannWealthModel method}|hyperpage}{11}
+\indexentry{MoneyAgent (class in examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model)@\spxentry{MoneyAgent}\spxextra{class in examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model}|hyperpage}{11}
+\indexentry{step() (examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model.MoneyAgent method)@\spxentry{step()}\spxextra{examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.model.MoneyAgent method}|hyperpage}{11}
+\indexentry{examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.server (module)@\spxentry{examples.boltzmann\_wealth\_model.boltzmann\_wealth\_model.server}\spxextra{module}|hyperpage}{11}
+\indexentry{examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model (module)@\spxentry{examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model}\spxextra{module}|hyperpage}{11}
+\indexentry{BoltzmannWealthModelNetwork (class in examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model)@\spxentry{BoltzmannWealthModelNetwork}\spxextra{class in examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model}|hyperpage}{13}
+\indexentry{run\_model() (examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model.BoltzmannWealthModelNetwork method)@\spxentry{run\_model()}\spxextra{examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model.BoltzmannWealthModelNetwork method}|hyperpage}{13}
+\indexentry{step() (examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model.BoltzmannWealthModelNetwork method)@\spxentry{step()}\spxextra{examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model.BoltzmannWealthModelNetwork method}|hyperpage}{13}
+\indexentry{MoneyAgent (class in examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model)@\spxentry{MoneyAgent}\spxextra{class in examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model}|hyperpage}{13}
+\indexentry{step() (examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model.MoneyAgent method)@\spxentry{step()}\spxextra{examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.model.MoneyAgent method}|hyperpage}{13}
+\indexentry{examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.server (module)@\spxentry{examples.boltzmann\_wealth\_model\_network.boltzmann\_wealth\_model\_network.server}\spxextra{module}|hyperpage}{13}
+\indexentry{examples.conways\_game\_of\_life.conways\_game\_of\_life.cell (module)@\spxentry{examples.conways\_game\_of\_life.conways\_game\_of\_life.cell}\spxextra{module}|hyperpage}{13}
+\indexentry{Cell (class in examples.conways\_game\_of\_life.conways\_game\_of\_life.cell)@\spxentry{Cell}\spxextra{class in examples.conways\_game\_of\_life.conways\_game\_of\_life.cell}|hyperpage}{13}
+\indexentry{advance() (examples.conways\_game\_of\_life.conways\_game\_of\_life.cell.Cell method)@\spxentry{advance()}\spxextra{examples.conways\_game\_of\_life.conways\_game\_of\_life.cell.Cell method}|hyperpage}{13}
+\indexentry{step() (examples.conways\_game\_of\_life.conways\_game\_of\_life.cell.Cell method)@\spxentry{step()}\spxextra{examples.conways\_game\_of\_life.conways\_game\_of\_life.cell.Cell method}|hyperpage}{13}
+\indexentry{examples.conways\_game\_of\_life.conways\_game\_of\_life.model (module)@\spxentry{examples.conways\_game\_of\_life.conways\_game\_of\_life.model}\spxextra{module}|hyperpage}{13}
+\indexentry{ConwaysGameOfLife (class in examples.conways\_game\_of\_life.conways\_game\_of\_life.model)@\spxentry{ConwaysGameOfLife}\spxextra{class in examples.conways\_game\_of\_life.conways\_game\_of\_life.model}|hyperpage}{15}
+\indexentry{run\_model() (examples.conways\_game\_of\_life.conways\_game\_of\_life.model.ConwaysGameOfLife method)@\spxentry{run\_model()}\spxextra{examples.conways\_game\_of\_life.conways\_game\_of\_life.model.ConwaysGameOfLife method}|hyperpage}{15}
+\indexentry{step() (examples.conways\_game\_of\_life.conways\_game\_of\_life.model.ConwaysGameOfLife method)@\spxentry{step()}\spxextra{examples.conways\_game\_of\_life.conways\_game\_of\_life.model.ConwaysGameOfLife method}|hyperpage}{15}
+\indexentry{examples.conways\_game\_of\_life.conways\_game\_of\_life.portrayal (module)@\spxentry{examples.conways\_game\_of\_life.conways\_game\_of\_life.portrayal}\spxextra{module}|hyperpage}{15}
+\indexentry{portrayCell() (in module examples.conways\_game\_of\_life.conways\_game\_of\_life.portrayal)@\spxentry{portrayCell()}\spxextra{in module examples.conways\_game\_of\_life.conways\_game\_of\_life.portrayal}|hyperpage}{15}
+\indexentry{examples.conways\_game\_of\_life.conways\_game\_of\_life.server (module)@\spxentry{examples.conways\_game\_of\_life.conways\_game\_of\_life.server}\spxextra{module}|hyperpage}{15}
+\indexentry{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent (module)@\spxentry{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent}\spxextra{module}|hyperpage}{15}
+\indexentry{Citizen (class in examples.epstein\_civil\_violence.epstein\_civil\_violence.agent)@\spxentry{Citizen}\spxextra{class in examples.epstein\_civil\_violence.epstein\_civil\_violence.agent}|hyperpage}{15}
+\indexentry{unique\_id (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute)@\spxentry{unique\_id}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute}|hyperpage}{15}
+\indexentry{hardship (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute)@\spxentry{hardship}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute}|hyperpage}{15}
+\indexentry{regime\_legitimacy (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute)@\spxentry{regime\_legitimacy}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute}|hyperpage}{15}
+\indexentry{risk\_aversion (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute)@\spxentry{risk\_aversion}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute}|hyperpage}{15}
+\indexentry{threshold (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute)@\spxentry{threshold}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute}|hyperpage}{15}
+\indexentry{vision (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute)@\spxentry{vision}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute}|hyperpage}{16}
+\indexentry{condition (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute)@\spxentry{condition}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute}|hyperpage}{16}
+\indexentry{grievance (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute)@\spxentry{grievance}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute}|hyperpage}{16}
+\indexentry{arrest\_probability (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute)@\spxentry{arrest\_probability}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen attribute}|hyperpage}{16}
+\indexentry{step() (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen method)@\spxentry{step()}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen method}|hyperpage}{16}
+\indexentry{update\_estimated\_arrest\_probability() (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen method)@\spxentry{update\_estimated\_arrest\_probability()}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen method}|hyperpage}{16}
+\indexentry{update\_neighbors() (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen method)@\spxentry{update\_neighbors()}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Citizen method}|hyperpage}{16}
+\indexentry{Cop (class in examples.epstein\_civil\_violence.epstein\_civil\_violence.agent)@\spxentry{Cop}\spxextra{class in examples.epstein\_civil\_violence.epstein\_civil\_violence.agent}|hyperpage}{16}
+\indexentry{unique\_id (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Cop attribute)@\spxentry{unique\_id}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Cop attribute}|hyperpage}{16}
+\indexentry{vision (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Cop attribute)@\spxentry{vision}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Cop attribute}|hyperpage}{16}
+\indexentry{step() (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Cop method)@\spxentry{step()}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Cop method}|hyperpage}{16}
+\indexentry{update\_neighbors() (examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Cop method)@\spxentry{update\_neighbors()}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.agent.Cop method}|hyperpage}{16}
+\indexentry{examples.epstein\_civil\_violence.epstein\_civil\_violence.model (module)@\spxentry{examples.epstein\_civil\_violence.epstein\_civil\_violence.model}\spxextra{module}|hyperpage}{16}
+\indexentry{EpsteinCivilViolence (class in examples.epstein\_civil\_violence.epstein\_civil\_violence.model)@\spxentry{EpsteinCivilViolence}\spxextra{class in examples.epstein\_civil\_violence.epstein\_civil\_violence.model}|hyperpage}{17}
+\indexentry{width (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{width}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{17}
+\indexentry{citizen\_density (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{citizen\_density}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{17}
+\indexentry{cop\_density (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{cop\_density}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{17}
+\indexentry{citizen\_vision (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{citizen\_vision}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{17}
+\indexentry{cop\_vision (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{cop\_vision}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{17}
+\indexentry{legitimacy (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{legitimacy}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{18}
+\indexentry{max\_jail\_term (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{max\_jail\_term}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{18}
+\indexentry{active\_threshold (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{active\_threshold}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{18}
+\indexentry{arrest\_prob\_constant (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{arrest\_prob\_constant}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{18}
+\indexentry{movement (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{movement}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{18}
+\indexentry{max\_iters (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute)@\spxentry{max\_iters}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence attribute}|hyperpage}{18}
+\indexentry{count\_jailed() (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence static method)@\spxentry{count\_jailed()}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence static method}|hyperpage}{18}
+\indexentry{count\_type\_citizens() (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence static method)@\spxentry{count\_type\_citizens()}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence static method}|hyperpage}{18}
+\indexentry{run\_model() (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence method)@\spxentry{run\_model()}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence method}|hyperpage}{18}
+\indexentry{step() (examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence method)@\spxentry{step()}\spxextra{examples.epstein\_civil\_violence.epstein\_civil\_violence.model.EpsteinCivilViolence method}|hyperpage}{18}
+\indexentry{examples.epstein\_civil\_violence.epstein\_civil\_violence.portrayal (module)@\spxentry{examples.epstein\_civil\_violence.epstein\_civil\_violence.portrayal}\spxextra{module}|hyperpage}{18}
+\indexentry{examples.epstein\_civil\_violence.epstein\_civil\_violence.server (module)@\spxentry{examples.epstein\_civil\_violence.epstein\_civil\_violence.server}\spxextra{module}|hyperpage}{18}
+\indexentry{examples.forest\_fire.forest\_fire.agent (module)@\spxentry{examples.forest\_fire.forest\_fire.agent}\spxextra{module}|hyperpage}{18}
+\indexentry{TreeCell (class in examples.forest\_fire.forest\_fire.agent)@\spxentry{TreeCell}\spxextra{class in examples.forest\_fire.forest\_fire.agent}|hyperpage}{18}
+\indexentry{condition (examples.forest\_fire.forest\_fire.agent.TreeCell attribute)@\spxentry{condition}\spxextra{examples.forest\_fire.forest\_fire.agent.TreeCell attribute}|hyperpage}{18}
+\indexentry{unique\_id (examples.forest\_fire.forest\_fire.agent.TreeCell attribute)@\spxentry{unique\_id}\spxextra{examples.forest\_fire.forest\_fire.agent.TreeCell attribute}|hyperpage}{18}
+\indexentry{step() (examples.forest\_fire.forest\_fire.agent.TreeCell method)@\spxentry{step()}\spxextra{examples.forest\_fire.forest\_fire.agent.TreeCell method}|hyperpage}{18}
+\indexentry{examples.forest\_fire.forest\_fire.model (module)@\spxentry{examples.forest\_fire.forest\_fire.model}\spxextra{module}|hyperpage}{18}
+\indexentry{ForestFire (class in examples.forest\_fire.forest\_fire.model)@\spxentry{ForestFire}\spxextra{class in examples.forest\_fire.forest\_fire.model}|hyperpage}{19}
+\indexentry{count\_type() (examples.forest\_fire.forest\_fire.model.ForestFire static method)@\spxentry{count\_type()}\spxextra{examples.forest\_fire.forest\_fire.model.ForestFire static method}|hyperpage}{19}
+\indexentry{run\_model() (examples.forest\_fire.forest\_fire.model.ForestFire method)@\spxentry{run\_model()}\spxextra{examples.forest\_fire.forest\_fire.model.ForestFire method}|hyperpage}{19}
+\indexentry{step() (examples.forest\_fire.forest\_fire.model.ForestFire method)@\spxentry{step()}\spxextra{examples.forest\_fire.forest\_fire.model.ForestFire method}|hyperpage}{19}
+\indexentry{examples.forest\_fire.forest\_fire.server (module)@\spxentry{examples.forest\_fire.forest\_fire.server}\spxextra{module}|hyperpage}{19}
+\indexentry{examples.hex\_snowflake.hex\_snowflake.cell (module)@\spxentry{examples.hex\_snowflake.hex\_snowflake.cell}\spxextra{module}|hyperpage}{19}
+\indexentry{Cell (class in examples.hex\_snowflake.hex\_snowflake.cell)@\spxentry{Cell}\spxextra{class in examples.hex\_snowflake.hex\_snowflake.cell}|hyperpage}{19}
+\indexentry{advance() (examples.hex\_snowflake.hex\_snowflake.cell.Cell method)@\spxentry{advance()}\spxextra{examples.hex\_snowflake.hex\_snowflake.cell.Cell method}|hyperpage}{19}
+\indexentry{step() (examples.hex\_snowflake.hex\_snowflake.cell.Cell method)@\spxentry{step()}\spxextra{examples.hex\_snowflake.hex\_snowflake.cell.Cell method}|hyperpage}{19}
+\indexentry{examples.hex\_snowflake.hex\_snowflake.model (module)@\spxentry{examples.hex\_snowflake.hex\_snowflake.model}\spxextra{module}|hyperpage}{19}
+\indexentry{HexSnowflake (class in examples.hex\_snowflake.hex\_snowflake.model)@\spxentry{HexSnowflake}\spxextra{class in examples.hex\_snowflake.hex\_snowflake.model}|hyperpage}{21}
+\indexentry{run\_model() (examples.hex\_snowflake.hex\_snowflake.model.HexSnowflake method)@\spxentry{run\_model()}\spxextra{examples.hex\_snowflake.hex\_snowflake.model.HexSnowflake method}|hyperpage}{21}
+\indexentry{step() (examples.hex\_snowflake.hex\_snowflake.model.HexSnowflake method)@\spxentry{step()}\spxextra{examples.hex\_snowflake.hex\_snowflake.model.HexSnowflake method}|hyperpage}{21}
+\indexentry{examples.hex\_snowflake.hex\_snowflake.portrayal (module)@\spxentry{examples.hex\_snowflake.hex\_snowflake.portrayal}\spxextra{module}|hyperpage}{21}
+\indexentry{portrayCell() (in module examples.hex\_snowflake.hex\_snowflake.portrayal)@\spxentry{portrayCell()}\spxextra{in module examples.hex\_snowflake.hex\_snowflake.portrayal}|hyperpage}{21}
+\indexentry{examples.hex\_snowflake.hex\_snowflake.server (module)@\spxentry{examples.hex\_snowflake.hex\_snowflake.server}\spxextra{module}|hyperpage}{21}
+\indexentry{examples.pd\_grid.pd\_grid.agent (module)@\spxentry{examples.pd\_grid.pd\_grid.agent}\spxextra{module}|hyperpage}{21}
+\indexentry{PDAgent (class in examples.pd\_grid.pd\_grid.agent)@\spxentry{PDAgent}\spxextra{class in examples.pd\_grid.pd\_grid.agent}|hyperpage}{21}
+\indexentry{step() (examples.pd\_grid.pd\_grid.agent.PDAgent method)@\spxentry{step()}\spxextra{examples.pd\_grid.pd\_grid.agent.PDAgent method}|hyperpage}{21}
+\indexentry{examples.pd\_grid.pd\_grid.model (module)@\spxentry{examples.pd\_grid.pd\_grid.model}\spxextra{module}|hyperpage}{21}
+\indexentry{PdGrid (class in examples.pd\_grid.pd\_grid.model)@\spxentry{PdGrid}\spxextra{class in examples.pd\_grid.pd\_grid.model}|hyperpage}{23}
+\indexentry{run\_model() (examples.pd\_grid.pd\_grid.model.PdGrid method)@\spxentry{run\_model()}\spxextra{examples.pd\_grid.pd\_grid.model.PdGrid method}|hyperpage}{23}
+\indexentry{step() (examples.pd\_grid.pd\_grid.model.PdGrid method)@\spxentry{step()}\spxextra{examples.pd\_grid.pd\_grid.model.PdGrid method}|hyperpage}{23}
+\indexentry{examples.pd\_grid.pd\_grid.portrayal (module)@\spxentry{examples.pd\_grid.pd\_grid.portrayal}\spxextra{module}|hyperpage}{23}
+\indexentry{portrayPDAgent() (in module examples.pd\_grid.pd\_grid.portrayal)@\spxentry{portrayPDAgent()}\spxextra{in module examples.pd\_grid.pd\_grid.portrayal}|hyperpage}{23}
+\indexentry{examples.pd\_grid.pd\_grid.server (module)@\spxentry{examples.pd\_grid.pd\_grid.server}\spxextra{module}|hyperpage}{23}
+\indexentry{examples.schelling.model (module)@\spxentry{examples.schelling.model}\spxextra{module}|hyperpage}{23}
+\indexentry{Schelling (class in examples.schelling.model)@\spxentry{Schelling}\spxextra{class in examples.schelling.model}|hyperpage}{25}
+\indexentry{run\_model() (examples.schelling.model.Schelling method)@\spxentry{run\_model()}\spxextra{examples.schelling.model.Schelling method}|hyperpage}{25}
+\indexentry{step() (examples.schelling.model.Schelling method)@\spxentry{step()}\spxextra{examples.schelling.model.Schelling method}|hyperpage}{25}
+\indexentry{SchellingAgent (class in examples.schelling.model)@\spxentry{SchellingAgent}\spxextra{class in examples.schelling.model}|hyperpage}{25}
+\indexentry{step() (examples.schelling.model.SchellingAgent method)@\spxentry{step()}\spxextra{examples.schelling.model.SchellingAgent method}|hyperpage}{25}
+\indexentry{examples.schelling.server (module)@\spxentry{examples.schelling.server}\spxextra{module}|hyperpage}{25}
+\indexentry{HappyElement (class in examples.schelling.server)@\spxentry{HappyElement}\spxextra{class in examples.schelling.server}|hyperpage}{25}
+\indexentry{render() (examples.schelling.server.HappyElement method)@\spxentry{render()}\spxextra{examples.schelling.server.HappyElement method}|hyperpage}{25}
+\indexentry{schelling\_draw() (in module examples.schelling.server)@\spxentry{schelling\_draw()}\spxextra{in module examples.schelling.server}|hyperpage}{25}
+\indexentry{examples.sugarscape\_cg.sugarscape\_cg.model (module)@\spxentry{examples.sugarscape\_cg.sugarscape\_cg.model}\spxextra{module}|hyperpage}{25}
+\indexentry{SugarscapeCg (class in examples.sugarscape\_cg.sugarscape\_cg.model)@\spxentry{SugarscapeCg}\spxextra{class in examples.sugarscape\_cg.sugarscape\_cg.model}|hyperpage}{27}
+\indexentry{run\_model() (examples.sugarscape\_cg.sugarscape\_cg.model.SugarscapeCg method)@\spxentry{run\_model()}\spxextra{examples.sugarscape\_cg.sugarscape\_cg.model.SugarscapeCg method}|hyperpage}{27}
+\indexentry{step() (examples.sugarscape\_cg.sugarscape\_cg.model.SugarscapeCg method)@\spxentry{step()}\spxextra{examples.sugarscape\_cg.sugarscape\_cg.model.SugarscapeCg method}|hyperpage}{27}
+\indexentry{examples.sugarscape\_cg.sugarscape\_cg.agents (module)@\spxentry{examples.sugarscape\_cg.sugarscape\_cg.agents}\spxextra{module}|hyperpage}{27}
+\indexentry{SsAgent (class in examples.sugarscape\_cg.sugarscape\_cg.agents)@\spxentry{SsAgent}\spxextra{class in examples.sugarscape\_cg.sugarscape\_cg.agents}|hyperpage}{27}
+\indexentry{step() (examples.sugarscape\_cg.sugarscape\_cg.agents.SsAgent method)@\spxentry{step()}\spxextra{examples.sugarscape\_cg.sugarscape\_cg.agents.SsAgent method}|hyperpage}{27}
+\indexentry{Sugar (class in examples.sugarscape\_cg.sugarscape\_cg.agents)@\spxentry{Sugar}\spxextra{class in examples.sugarscape\_cg.sugarscape\_cg.agents}|hyperpage}{27}
+\indexentry{step() (examples.sugarscape\_cg.sugarscape\_cg.agents.Sugar method)@\spxentry{step()}\spxextra{examples.sugarscape\_cg.sugarscape\_cg.agents.Sugar method}|hyperpage}{27}
+\indexentry{get\_distance() (in module examples.sugarscape\_cg.sugarscape\_cg.agents)@\spxentry{get\_distance()}\spxextra{in module examples.sugarscape\_cg.sugarscape\_cg.agents}|hyperpage}{27}
+\indexentry{examples.sugarscape\_cg.sugarscape\_cg.schedule (module)@\spxentry{examples.sugarscape\_cg.sugarscape\_cg.schedule}\spxextra{module}|hyperpage}{27}
+\indexentry{RandomActivationByBreed (class in examples.sugarscape\_cg.sugarscape\_cg.schedule)@\spxentry{RandomActivationByBreed}\spxextra{class in examples.sugarscape\_cg.sugarscape\_cg.schedule}|hyperpage}{27}
+\indexentry{add() (examples.sugarscape\_cg.sugarscape\_cg.schedule.RandomActivationByBreed method)@\spxentry{add()}\spxextra{examples.sugarscape\_cg.sugarscape\_cg.schedule.RandomActivationByBreed method}|hyperpage}{27}
+\indexentry{get\_breed\_count() (examples.sugarscape\_cg.sugarscape\_cg.schedule.RandomActivationByBreed method)@\spxentry{get\_breed\_count()}\spxextra{examples.sugarscape\_cg.sugarscape\_cg.schedule.RandomActivationByBreed method}|hyperpage}{27}
+\indexentry{remove() (examples.sugarscape\_cg.sugarscape\_cg.schedule.RandomActivationByBreed method)@\spxentry{remove()}\spxextra{examples.sugarscape\_cg.sugarscape\_cg.schedule.RandomActivationByBreed method}|hyperpage}{28}
+\indexentry{step() (examples.sugarscape\_cg.sugarscape\_cg.schedule.RandomActivationByBreed method)@\spxentry{step()}\spxextra{examples.sugarscape\_cg.sugarscape\_cg.schedule.RandomActivationByBreed method}|hyperpage}{28}
+\indexentry{step\_breed() (examples.sugarscape\_cg.sugarscape\_cg.schedule.RandomActivationByBreed method)@\spxentry{step\_breed()}\spxextra{examples.sugarscape\_cg.sugarscape\_cg.schedule.RandomActivationByBreed method}|hyperpage}{28}
+\indexentry{examples.virus\_on\_network.virus\_on\_network.model (module)@\spxentry{examples.virus\_on\_network.virus\_on\_network.model}\spxextra{module}|hyperpage}{28}
+\indexentry{State (class in examples.virus\_on\_network.virus\_on\_network.model)@\spxentry{State}\spxextra{class in examples.virus\_on\_network.virus\_on\_network.model}|hyperpage}{29}
+\indexentry{VirusAgent (class in examples.virus\_on\_network.virus\_on\_network.model)@\spxentry{VirusAgent}\spxextra{class in examples.virus\_on\_network.virus\_on\_network.model}|hyperpage}{29}
+\indexentry{step() (examples.virus\_on\_network.virus\_on\_network.model.VirusAgent method)@\spxentry{step()}\spxextra{examples.virus\_on\_network.virus\_on\_network.model.VirusAgent method}|hyperpage}{29}
+\indexentry{VirusOnNetwork (class in examples.virus\_on\_network.virus\_on\_network.model)@\spxentry{VirusOnNetwork}\spxextra{class in examples.virus\_on\_network.virus\_on\_network.model}|hyperpage}{29}
+\indexentry{run\_model() (examples.virus\_on\_network.virus\_on\_network.model.VirusOnNetwork method)@\spxentry{run\_model()}\spxextra{examples.virus\_on\_network.virus\_on\_network.model.VirusOnNetwork method}|hyperpage}{29}
+\indexentry{step() (examples.virus\_on\_network.virus\_on\_network.model.VirusOnNetwork method)@\spxentry{step()}\spxextra{examples.virus\_on\_network.virus\_on\_network.model.VirusOnNetwork method}|hyperpage}{29}
+\indexentry{examples.virus\_on\_network.virus\_on\_network.server (module)@\spxentry{examples.virus\_on\_network.virus\_on\_network.server}\spxextra{module}|hyperpage}{29}
+\indexentry{MyTextElement (class in examples.virus\_on\_network.virus\_on\_network.server)@\spxentry{MyTextElement}\spxextra{class in examples.virus\_on\_network.virus\_on\_network.server}|hyperpage}{29}
+\indexentry{render() (examples.virus\_on\_network.virus\_on\_network.server.MyTextElement method)@\spxentry{render()}\spxextra{examples.virus\_on\_network.virus\_on\_network.server.MyTextElement method}|hyperpage}{29}
+\indexentry{examples.wolf\_sheep.wolf\_sheep.model (module)@\spxentry{examples.wolf\_sheep.wolf\_sheep.model}\spxextra{module}|hyperpage}{29}
+\indexentry{WolfSheep (class in examples.wolf\_sheep.wolf\_sheep.model)@\spxentry{WolfSheep}\spxextra{class in examples.wolf\_sheep.wolf\_sheep.model}|hyperpage}{31}
+\indexentry{run\_model() (examples.wolf\_sheep.wolf\_sheep.model.WolfSheep method)@\spxentry{run\_model()}\spxextra{examples.wolf\_sheep.wolf\_sheep.model.WolfSheep method}|hyperpage}{31}
+\indexentry{step() (examples.wolf\_sheep.wolf\_sheep.model.WolfSheep method)@\spxentry{step()}\spxextra{examples.wolf\_sheep.wolf\_sheep.model.WolfSheep method}|hyperpage}{31}
+\indexentry{examples.wolf\_sheep.wolf\_sheep.agents (module)@\spxentry{examples.wolf\_sheep.wolf\_sheep.agents}\spxextra{module}|hyperpage}{31}
+\indexentry{GrassPatch (class in examples.wolf\_sheep.wolf\_sheep.agents)@\spxentry{GrassPatch}\spxextra{class in examples.wolf\_sheep.wolf\_sheep.agents}|hyperpage}{31}
+\indexentry{step() (examples.wolf\_sheep.wolf\_sheep.agents.GrassPatch method)@\spxentry{step()}\spxextra{examples.wolf\_sheep.wolf\_sheep.agents.GrassPatch method}|hyperpage}{31}
+\indexentry{Sheep (class in examples.wolf\_sheep.wolf\_sheep.agents)@\spxentry{Sheep}\spxextra{class in examples.wolf\_sheep.wolf\_sheep.agents}|hyperpage}{31}
+\indexentry{step() (examples.wolf\_sheep.wolf\_sheep.agents.Sheep method)@\spxentry{step()}\spxextra{examples.wolf\_sheep.wolf\_sheep.agents.Sheep method}|hyperpage}{31}
+\indexentry{Wolf (class in examples.wolf\_sheep.wolf\_sheep.agents)@\spxentry{Wolf}\spxextra{class in examples.wolf\_sheep.wolf\_sheep.agents}|hyperpage}{31}
+\indexentry{step() (examples.wolf\_sheep.wolf\_sheep.agents.Wolf method)@\spxentry{step()}\spxextra{examples.wolf\_sheep.wolf\_sheep.agents.Wolf method}|hyperpage}{31}
+\indexentry{examples.wolf\_sheep.wolf\_sheep.random\_walk (module)@\spxentry{examples.wolf\_sheep.wolf\_sheep.random\_walk}\spxextra{module}|hyperpage}{31}
+\indexentry{RandomWalker (class in examples.wolf\_sheep.wolf\_sheep.random\_walk)@\spxentry{RandomWalker}\spxextra{class in examples.wolf\_sheep.wolf\_sheep.random\_walk}|hyperpage}{31}
+\indexentry{random\_move() (examples.wolf\_sheep.wolf\_sheep.random\_walk.RandomWalker method)@\spxentry{random\_move()}\spxextra{examples.wolf\_sheep.wolf\_sheep.random\_walk.RandomWalker method}|hyperpage}{32}
+\indexentry{examples.wolf\_sheep.wolf\_sheep.schedule (module)@\spxentry{examples.wolf\_sheep.wolf\_sheep.schedule}\spxextra{module}|hyperpage}{32}
+\indexentry{RandomActivationByBreed (class in examples.wolf\_sheep.wolf\_sheep.schedule)@\spxentry{RandomActivationByBreed}\spxextra{class in examples.wolf\_sheep.wolf\_sheep.schedule}|hyperpage}{32}
+\indexentry{add() (examples.wolf\_sheep.wolf\_sheep.schedule.RandomActivationByBreed method)@\spxentry{add()}\spxextra{examples.wolf\_sheep.wolf\_sheep.schedule.RandomActivationByBreed method}|hyperpage}{32}
+\indexentry{get\_breed\_count() (examples.wolf\_sheep.wolf\_sheep.schedule.RandomActivationByBreed method)@\spxentry{get\_breed\_count()}\spxextra{examples.wolf\_sheep.wolf\_sheep.schedule.RandomActivationByBreed method}|hyperpage}{32}
+\indexentry{remove() (examples.wolf\_sheep.wolf\_sheep.schedule.RandomActivationByBreed method)@\spxentry{remove()}\spxextra{examples.wolf\_sheep.wolf\_sheep.schedule.RandomActivationByBreed method}|hyperpage}{32}
+\indexentry{step() (examples.wolf\_sheep.wolf\_sheep.schedule.RandomActivationByBreed method)@\spxentry{step()}\spxextra{examples.wolf\_sheep.wolf\_sheep.schedule.RandomActivationByBreed method}|hyperpage}{32}
+\indexentry{step\_breed() (examples.wolf\_sheep.wolf\_sheep.schedule.RandomActivationByBreed method)@\spxentry{step\_breed()}\spxextra{examples.wolf\_sheep.wolf\_sheep.schedule.RandomActivationByBreed method}|hyperpage}{32}
+\indexentry{examples.wolf\_sheep.wolf\_sheep.server (module)@\spxentry{examples.wolf\_sheep.wolf\_sheep.server}\spxextra{module}|hyperpage}{32}
