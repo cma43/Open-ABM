@@ -15,7 +15,7 @@ Welcome to Open ABM's documentation!
    :caption: Contents:
 
 
-.. automodule:: oabm_tools
+.. automodule:: openabm
    :members:
 
 

@@ -1,0 +1,8 @@
+README.md
+setup.py
+openabm.egg-info/PKG-INFO
+openabm.egg-info/SOURCES.txt
+openabm.egg-info/dependency_links.txt
+openabm.egg-info/entry_points.txt
+openabm.egg-info/requires.txt
+openabm.egg-info/top_level.txt

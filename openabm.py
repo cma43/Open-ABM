@@ -1,19 +1,4 @@
-##############################################################################################################################
-#FIXME: Either have MESA examples as a part of OABM or find a way to pull examples 
-#for users when they want to use a MESA example env in a way like below:
 
-# from git import Repo
-
-# git_url = 'https://github.com/projectmesa/mesa/tree/master/examples'
-# repo_dir = 'C:\\Users\\conar\\Documents\\GitHub\\ABM\\Examples\\OpenABM\\OABM_test'
-# Repo.clone_from(git_url, repo_dir)
-
-#Some useful thoughts from https://stackoverflow.com/questions/8718885/import-module-from-string-variable
-
-#TODO: It would be nice to have a method that spits out attributes, and commented descriptions along with them
-#TODO: unit tests
-
-##############################################################################################################################
 import numpy as np
 import sys
 import os 
@@ -24,7 +9,6 @@ from collections import defaultdict
 from mesa.datacollection import DataCollector
 import types 
 
-#from examples.bank_reserves.bank_reserves import  agents, model, random_walk, server 
 
 env_id = {'Conway-GOL': ('conways_game_of_life', 'ConwaysGameOfLife'), 
           'Boid-Flockers': ('boid_flockers', 'BoidFlockers'),
@@ -39,8 +23,8 @@ env_id = {'Conway-GOL': ('conways_game_of_life', 'ConwaysGameOfLife'),
           'Sugarscape': ('sugarscape_cg', 'SugarscapeCg'), 
           'Virus-On-Network': ('virus_on_network', 'VirusOnNetwork'),
            'Wolf-Sheep': ('wolf_sheep', 'WolfSheep'),
-           'BWT (Currently Unavailable)': (), #TODO
-           'Cartel (Currently Unavailable)': ()} #TODO
+           'BWT (Currently Unavailable)': (),
+           'Cartel (Currently Unavailable)': ()} 
 
 def check_models():
 
@@ -77,9 +61,7 @@ def make(model_name, server = True):
     if not isinstance(model_name, str):
         raise AssertionError("The .make() method only accepts strings!")
 
-    #TODO: Raise error if model_name is not in the pre-specified list of acceptable environment
-    # names, and then print / suggest the list of names the user can choose from so they don't have
-    # to schlep to the documentation.  
+ 
 
     if model_name in env_id:    
 
@@ -208,7 +190,6 @@ def get_agent_parameters(model):
     """
 
 
-    #TODO: add ability to get values for particular param subsets from these params, as well as particular agents
     d = nested_dict()
     for i, agent in enumerate(model.schedule.agents):
         d[agent.unique_id] = vars(model.schedule.agents[i])
@@ -221,7 +202,6 @@ def nested_dict():
 
     return defaultdict(nested_dict)
 
-#TODO: data_dict method taking in unqiue IDs, or making dict of data by attribute 
 
 def set_agent_parameters(model, new_params):
 
@@ -309,11 +289,6 @@ def set_data_collection(model, agent_level, model_level, agent_data_to_collect =
 
     return model
 
-###################################################################################################
-#NOTE: once data collection is set, MESA already has methods to collect data into Pandas dataframes 
-#TODO: unit tests!
-###################################################################################################
-
 
 def get_agent_step(agent_list, verbose = True, distinct = True):
 
@@ -329,14 +304,8 @@ def get_agent_step(agent_list, verbose = True, distinct = True):
     
     a_list = []
 
-    #NOTE: based on solution posted here: https://stackoverflow.com/questions/54374296/extract-python-function-source-text-from-the-source-code-string
-    #TODO: store agent unique ID with step function in a dict; 
-
     for _, agent in enumerate(agent_list):
 
-        #TODO: this should probably just be a list comprehension 
-        #TODO: throw error if not of agent type specified in model class that the agent belongs to
-        
         lines = inspect.getsource(type(agent)).split('\n')
 
         #looking for lines with 'def' keywords
@@ -403,17 +372,7 @@ def set_agent_step(agent_dict, model):
 
     :return: Updated model instance
     """
-    #Currently just assumes all agents of interest (by UID) and their step functions are specified in a dict. Need to add functionality allowing user to 
-    #specify a step function for all agents of a class, all agents in a subset of the same OR different class, or for all agents generally
-
-    #**TODO: should work for specifying some class-specific type of agent, or a particular subset of agents by UID!************
-    #TODO: UNIT TEST
-    #TODO: check that agents work still after changing step function
-    #return step functions of an agent list; if model is not none, then return step functions of all types of agent in model
-    
-    #TODO: Generalize this for the case where the only key in agent_dict is a list of agents for a single new step, and then for a list of agents with various
-    #other step functions by UID or another identifier.
-    
+  
     for agent_id in agent_dict.keys():
 
         model.schedule.agents[agent_id].step = types.MethodType(agent_dict[agent_id], model.schedule.agents[agent_id])
@@ -431,9 +390,6 @@ def get_model_step(model, verbose = True):
 
     """
 
-    #NOTE: based on solution posted here: https://stackoverflow.com/questions/54374296/extract-python-function-source-text-from-the-source-code-string
-    #TODO: throw error if not of agent type specified in model class that the agent belongs to
-    #NOTE: assumes that there are only model or agent specific step functions in each agent or model module.
 
     lines = inspect.getsource(type(model)).split('\n')
 
@@ -491,17 +447,8 @@ def set_model_step(model, new_step_func):
 
     """
 
-    #NOTE: must pass a model instance to refer to
-    #TODO: check that model step function still works after changing it 
-    #TODO: UNIT TESTS
     model.step = types.MethodType(new_step_func, model)
     
     return model
-
-#TODO: Make server adjustments easy to do for the 13 examples; want to adjust the knobs we can tune that pop out,
-#then want tools for just constructing a pop-out easier 
-
-#TODO: may want to return data collection after watching sim in server pop-out 
-        
-        
+   
 

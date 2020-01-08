@@ -1,10 +1,10 @@
-from oabm_tools import *
+from openabm import *
 
 ##############################################
 #Import and run 
 ##############################################
 
-env = make('Boid-Flockers', server = True)  
+env = make('Bank-Reserves', server = True)  
 env.run_model()
 
 
