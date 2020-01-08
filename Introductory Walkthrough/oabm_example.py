@@ -1,4 +1,4 @@
-from oabm_tools import *
+from openabm import *
 
 ##############################################
 #Import and run 
