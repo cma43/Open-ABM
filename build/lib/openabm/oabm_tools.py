@@ -75,9 +75,9 @@ def make(model_name, server = True):
         print("{} ABM imported, instantiating environment".format(model_name))  
         #Import and instantiate chosen ABM
         if model_name == 'Schelling':
-            env = importlib.import_module('examples.{}.model'.format(env_name))
+            env = importlib.import_module('openabm.examples.{}.model'.format(env_name))
         else:
-            env = importlib.import_module('examples.{}.{}.model'.format(env_name, env_name))
+            env = importlib.import_module('openabm.examples.{}.{}.model'.format(env_name, env_name))
 
         env = getattr(env, env_id.get(model_name)[1])
 

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: openabm
-Version: 1.0.11
+Version: 1.0.12
 Summary: A Python framework for agent-based modeling based on MESA
 Home-page: https://github.com/cma43/Open-ABM
 Author: Conor M. Artman
