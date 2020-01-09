@@ -1,5 +1,8 @@
 README.md
 setup.py
+examples/__init__.py
+openabm/__init__.py
+openabm/oabm_tools.py
 openabm.egg-info/PKG-INFO
 openabm.egg-info/SOURCES.txt
 openabm.egg-info/dependency_links.txt
