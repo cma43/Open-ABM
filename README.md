@@ -6,4 +6,4 @@ If you're viewing this on PyPI, please see our Github repo for documentation and
 
 To get a quick start, please see our oabm_example.py file. For a fuller introduction, see our Jupyter notebook in the 'Introductory Walkthrough' folder. Also, keep in mind that you may access the source code of any template models under the 'openabm/examples' after installing via pip or by cloning the repo directly.
 
-All current starting models were built by the MESA team. Users are encouraged to explore MESA and its tools after getting started with Open ABM here: https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html
+All original starting models were built by the MESA team. Users are encouraged to explore MESA and its tools after getting started with Open ABM here: https://mesa.readthedocs.io/en/master/tutorials/intro_tutorial.html
